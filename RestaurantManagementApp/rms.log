@@ -1,0 +1,22 @@
+2021-08-03 23:48:20 INFO  EmployeeClient:26 - In main
+2021-08-03 23:48:29 INFO  EmployeeClient:47 - OPERATION-CREATION/ADDING OF EMPLOYEE RECORDS
+2021-08-03 23:48:56 INFO  EmployeeController:21 - In addEmployee-controller
+2021-08-03 23:48:56 INFO  EmployeeUtil:23 - In addEmployee-Util
+2021-08-03 23:48:56 DEBUG EmployeeServiceImpl:27 - In add Employee-ServiceImplementation
+2021-08-03 23:49:06 INFO  EmployeeClient:144 - OPERATION-DISPLAYING OF EMPLOYEE RECORDS
+2021-08-03 23:49:06 INFO  EmployeeController:61 - In displayEmployee-controller
+2021-08-03 23:49:06 INFO  EmployeeUtil:51 - In displayEmployee-Util
+2021-08-03 23:49:06 DEBUG EmployeeServiceImpl:95 - In display Employee-ServiceImplementation
+2021-08-03 23:49:06 INFO  EmployeeServiceImpl:97 - Employee Records are
+
+2021-08-03 23:55:28 INFO  MenuClient:24 - In main
+2021-08-03 23:55:32 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-03 23:55:53 INFO  MenuController:20 - In addFood Controller
+2021-08-03 23:55:53 INFO  MenuUtil:25 - In addFood Util
+2021-08-03 23:55:53 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
+2021-08-03 23:55:55 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-03 23:55:55 INFO  MenuController:54 - In displayFood Controller
+2021-08-03 23:55:55 INFO  MenuUtil:47 - In displayFood Util
+2021-08-03 23:55:55 DEBUG MenuServiceImpl:73 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-03 23:55:55 INFO  MenuServiceImpl:75 - Food Items are
+
