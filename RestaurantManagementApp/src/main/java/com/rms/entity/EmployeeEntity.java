@@ -15,6 +15,7 @@ public class EmployeeEntity {
 			super();
 			EmployeeId = employeeId;
 		}
+		
 		public EmployeeEntity(Integer employeeId, String employeeName, Integer employeeSalary, Integer employeePhone,
 				String employeeEmail, String employeeAddress) {
 			super();
