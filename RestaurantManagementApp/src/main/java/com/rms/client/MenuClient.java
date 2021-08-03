@@ -12,22 +12,21 @@ import com.rms.exception.EmptyListException;
 import com.rms.exception.IDNotExistException;
 import com.rms.exception.InvalidDeletionException;
 
-
 public class MenuClient {
 
 	static Logger logger = Logger.getLogger(MenuClient.class);
 
-	public static void main(String[] args) throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException  {
+	public static void main(String[] args)
+			throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException {
 
+		BasicConfigurator.configure();
 
-		BasicConfigurator.configure();  
-		
-		logger.info("In main");  
-		
-		MenuController menucontroller  = new MenuController();
+		logger.info("In main");
 
-		Scanner sc=new Scanner(System.in);
-		
+		MenuController menucontroller = new MenuController();
+
+		Scanner sc = new Scanner(System.in);
+
 		int ch;
 
 		for (;;) {
@@ -42,7 +41,7 @@ public class MenuClient {
 
 			case 1: {
 
-				System.out.println("\n" + "OPERATION-CREATION/ADDING OF MENU ITEMS" + "\n");
+				logger.info("OPERATION-CREATION/ADDING OF MENU ITEMS");
 
 				System.out.println("Enter the food item number");
 
@@ -61,41 +60,31 @@ public class MenuClient {
 
 				int foodprice = sc.nextInt();
 
-				MenuDto menudto=new MenuDto(foodid,foodname,foodtype,foodprice);
-				
-				
+				MenuDto menudto = new MenuDto(foodid, foodname, foodtype, foodprice);
+
 				menucontroller.addFoodItem(menudto);
-				
-				System.out.println("\n" + "Food Item Added!!!!" + "\n");
 
 				break;
 			}
 			case 2: {
 
-				System.out.println("\n" + "OPERATION-DELETION OF MENU ITEMS" + "\n");
+				logger.info("OPERATION-DELETION OF MENU ITEMS");
 
-				
 				System.out.println("Enter the food item number");
 
 				int foodid = sc.nextInt();
 				sc.nextLine();
 
 				MenuDto menudto = new MenuDto(foodid);
-				
-				
-				
-				menucontroller.deleteFoodItem(menudto);
-				
 
-				System.out.println("\n" + "Food item Deleted!!!" + "\n");
+				menucontroller.deleteFoodItem(menudto);
 
 				break;
 			}
 
 			case 3: {
 
-				System.out.println("\n" + "OPERATION-UPDATION OF MENU ITEMS" + "\n");
-
+				logger.info("OPERATION-UPDATION OF MENU ITEMS");
 
 				System.out.println("Enter the food item number");
 
@@ -114,14 +103,9 @@ public class MenuClient {
 
 				int foodprice = sc.nextInt();
 
-				MenuDto menudto=new MenuDto(foodid,foodname,foodtype,foodprice);
+				MenuDto menudto = new MenuDto(foodid, foodname, foodtype, foodprice);
 
-				
-				
 				menucontroller.updateFoodItem(menudto);
-				
-
-				System.out.println("\n" + "Food Item Updated!!!!" + "\n");
 
 				break;
 
@@ -129,12 +113,9 @@ public class MenuClient {
 
 			case 4: {
 
-				System.out.println("\n" + "OPERATION-DISPLAYING OF MENU ITEMS" + "\n");
+				logger.info("OPERATION-DISPLAYING OF MENU ITEMS");
 
 				menucontroller.displayFoodItem();
-				
-
-				System.out.println("\n" + "Food Item Displayed!!!!" + "\n");
 
 				break;
 

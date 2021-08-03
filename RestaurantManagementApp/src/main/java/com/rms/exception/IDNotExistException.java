@@ -8,7 +8,7 @@ public class IDNotExistException extends Exception {
 
 	public IDNotExistException(String msg) {
 		super(msg);
-		logger.info("Inside Custom Exception of UPDATE!!!!");
+		logger.warn("Inside Custom Exception of UPDATE!!!!");
 	}
 
 }

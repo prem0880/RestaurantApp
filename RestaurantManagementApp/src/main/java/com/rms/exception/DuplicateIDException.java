@@ -8,7 +8,7 @@ public class DuplicateIDException extends Exception {
 
 	public DuplicateIDException(String msg) {
 		super(msg);
-		logger.info("Inside Custom Exception of Add!!!");
+		logger.warn("Inside Custom Exception of Add!!!");
 
 	}
 

@@ -14,51 +14,38 @@ import com.rms.service.MenuServiceImpl;
 
 public class MenuUtil implements MenuService {
 
-	
 	static Logger logger = Logger.getLogger(MenuUtil.class);
-	
-	MenuService menuservice = new MenuServiceImpl();
-	
-	
-	
-	Scanner sc=new Scanner(System.in);
-	
-	public void addFoodItem(MenuDto menudto) throws DuplicateIDException{
-		
-		
-		logger.info("In addFood Util");
-			
-		menuservice.addFoodItem(menudto);
-			
-		
 
-		
+	MenuService menuservice = new MenuServiceImpl();
+
+	Scanner sc = new Scanner(System.in);
+
+	public void addFoodItem(MenuDto menudto) throws DuplicateIDException {
+
+		logger.info("In addFood Util");
+
+		menuservice.addFoodItem(menudto);
+
 	}
 
-	public void deleteFoodItem(MenuDto menudto) throws InvalidDeletionException{
-		
+	public void deleteFoodItem(MenuDto menudto) throws InvalidDeletionException {
 
 		logger.info("In deleteFood Util");
 		menuservice.deleteFoodItem(menudto);
 
-		
 	}
 
-	public void updateFoodItem(MenuDto menudto) throws IDNotExistException{
-		
+	public void updateFoodItem(MenuDto menudto) throws IDNotExistException {
+
 		logger.info("In updateFood Util");
 		menuservice.updateFoodItem(menudto);
-		
-		
+
 	}
 
-	public void displayFoodItem() throws EmptyListException{
-	
+	public void displayFoodItem() throws EmptyListException {
+
 		logger.info("In displayFood Util");
 		menuservice.displayFoodItem();
 	}
 
-	
-	
-	
 }

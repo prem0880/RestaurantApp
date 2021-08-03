@@ -8,6 +8,6 @@ public class InvalidDeletionException extends Exception {
 
 	public InvalidDeletionException(String msg) {
 		super(msg);
-		logger.info("Inside Custom Exception of DELETION");
+		logger.warn("Inside Custom Exception of DELETION");
 	}
 }

@@ -7,7 +7,7 @@ public class EmptyListException extends Exception {
 
 	public EmptyListException(String msg) {
 		super(msg);
-		logger.info("Inside Custom Exception of DISPLAY!!!");
+		logger.warn("Inside Custom Exception of DISPLAY!!!");
 	}
 
 }

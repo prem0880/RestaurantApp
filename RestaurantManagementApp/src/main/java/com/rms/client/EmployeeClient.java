@@ -14,29 +14,26 @@ import com.rms.exception.InvalidDeletionException;
 
 public class EmployeeClient {
 
-	
 	static Logger logger = Logger.getLogger(EmployeeClient.class);
 
-	public static void main(String[] args) throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException 
-	{
-		
-		
-		BasicConfigurator.configure();  
-		
-		logger.info("In main");  
-		
+	public static void main(String[] args)
+			throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException {
+
+		BasicConfigurator.configure();
+
+		logger.info("In main");
+
 		EmployeeController econtrol = new EmployeeController();
-		
-		
-		Scanner sc=new Scanner(System.in);
-		
+
+		Scanner sc = new Scanner(System.in);
+
 		int ch;
 
 		for (;;) {
 			System.out.println("======Employee - ADMIN==============");
 
-			System.out.println("1.Add Employee Records" + "\n" + "2.Remove Employee Records" + "\n" + "3.Update Employee Records" + "\n"
-					+ "4.Display Employee Records" + "\n" + "5.Exit" + "\n");
+			System.out.println("1.Add Employee Records" + "\n" + "2.Remove Employee Records" + "\n"
+					+ "3.Update Employee Records" + "\n" + "4.Display Employee Records" + "\n" + "5.Exit" + "\n");
 
 			ch = sc.nextInt();
 
@@ -44,7 +41,7 @@ public class EmployeeClient {
 
 			case 1: {
 
-				System.out.println("\n" + "OPERATION-CREATION/ADDING OF EMPLOYEE RECORDS" + "\n");
+				logger.info("OPERATION-CREATION/ADDING OF EMPLOYEE RECORDS");
 
 				System.out.println("Enter the Employee ID");
 
@@ -62,30 +59,28 @@ public class EmployeeClient {
 				System.out.println("Enter the Employee Phone");
 
 				Integer employeephone = sc.nextInt();
-				
+
 				sc.nextLine();
 
 				System.out.println("Enter the Employee Email");
 
 				String employeemail = sc.nextLine();
-				
+
 				System.out.println("Enter the Employee Address");
 
 				String employeeaddress = sc.nextLine();
-				
-				
-				EmployeeDto employeedto = new EmployeeDto(employeeid,employeename,employeesalary,employeephone,employeemail,employeeaddress);
-				
-				
+
+				EmployeeDto employeedto = new EmployeeDto(employeeid, employeename, employeesalary, employeephone,
+						employeemail, employeeaddress);
+
 				econtrol.addEmployee(employeedto);
-		
+
 				break;
 			}
-			
-			case 2:{
-				
 
-				System.out.println("\n" + "OPERATION-DELETION OF EMPLOYEE RECORDS" + "\n");
+			case 2: {
+
+				logger.info("OPERATION-DELETION OF EMPLOYEE RECORDS");
 
 				System.out.println("Enter the Employee ID to remove");
 
@@ -93,14 +88,14 @@ public class EmployeeClient {
 				sc.nextLine();
 
 				EmployeeDto employeedto = new EmployeeDto(employeeid);
-				
+
 				econtrol.deleteEmployee(employeedto);
 
 				break;
 			}
-			
-			case 3:{
-				System.out.println("\n" + "OPERATION-UPDATION OF EMPLOYEE RECORDS" + "\n");
+
+			case 3: {
+				logger.info("OPERATION-UPDATION OF EMPLOYEE RECORDS");
 
 				System.out.println("Enter the Employee ID to update");
 
@@ -123,43 +118,37 @@ public class EmployeeClient {
 				System.out.println("Enter the Employee Email to update");
 
 				String employeemail = sc.nextLine();
-				
+
 				System.out.println("Enter the Employee Address to update");
 
 				String employeeaddress = sc.nextLine();
-				
-				
-				EmployeeDto employeedto = new EmployeeDto(employeeid,employeename,employeesalary,employeephone,employeemail,employeeaddress);
-				
-				
+
+				EmployeeDto employeedto = new EmployeeDto(employeeid, employeename, employeesalary, employeephone,
+						employeemail, employeeaddress);
+
 				econtrol.updateEmployee(employeedto);
-		
+
 				break;
 
-				
 			}
-			
-			case 4:{
-				
-				System.out.println("\n" + "OPERATION-DISPLAYING OF EMPLOYEE RECORDS" + "\n");	
-				
+
+			case 4: {
+
+				logger.info("OPERATION-DISPLAYING OF EMPLOYEE RECORDS");
+
 				econtrol.displayEmployee();
-				
+
 				break;
-				
+
 			}
-			
-			case 5:
-			{
+
+			case 5: {
 				sc.close();
 				System.exit(0);
-				
-			}
-			
-			
-			
-	}
-		}
-}
-}
 
+			}
+
+			}
+		}
+	}
+}

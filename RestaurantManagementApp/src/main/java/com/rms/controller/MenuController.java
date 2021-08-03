@@ -13,62 +13,52 @@ public class MenuController {
 
 	static Logger logger = Logger.getLogger(MenuController.class);
 
-	
-	
 	MenuUtil menuutil = new MenuUtil();
-	
-	public void addFoodItem(MenuDto menudto)  {
-		
-		logger.info("In addFood Controller");  
-		
+
+	public void addFoodItem(MenuDto menudto) {
+
+		logger.info("In addFood Controller");
+
 		try {
 			menuutil.addFoodItem(menudto);
 		} catch (DuplicateIDException e) {
 
 			e.printStackTrace();
 		}
-		
-		
+
 	}
+
 	public void deleteFoodItem(MenuDto menudto) {
-		logger.info("In deleteFood Controller");  
-		
-		
+		logger.info("In deleteFood Controller");
+
 		try {
 			menuutil.deleteFoodItem(menudto);
 		} catch (InvalidDeletionException e) {
 			e.printStackTrace();
 		}
-		
+
 	}
 
-	public void updateFoodItem(MenuDto menudto)  {
-		logger.info("In updateFood Controller");  
-		
-		
+	public void updateFoodItem(MenuDto menudto) {
+		logger.info("In updateFood Controller");
+
 		try {
 			menuutil.updateFoodItem(menudto);
 		} catch (IDNotExistException e) {
 			e.printStackTrace();
 		}
-		
-		
+
 	}
 
-	public void displayFoodItem()  {
-		logger.info("In displayFood Controller");  
-		
-		
+	public void displayFoodItem() {
+		logger.info("In displayFood Controller");
+
 		try {
 			menuutil.displayFoodItem();
 		} catch (EmptyListException e) {
 			e.printStackTrace();
 		}
-		
-		
+
 	}
 
-	
-	
-	
 }

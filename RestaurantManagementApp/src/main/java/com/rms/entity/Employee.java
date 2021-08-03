@@ -1,23 +1,24 @@
-package com.rms.dto;
+package com.rms.entity;
 
-public class EmployeeDto {
-	private Integer Id;
-	private String Name;
+public class Employee {
+
+	private Integer Id;// id
+	private String Name;// name
 	private Integer Salary;
 	private Integer Phone;
 	private String Email;
 	private String Address;
 
-	public EmployeeDto() {
+	public Employee() {
 		super();
 	}
 
-	public EmployeeDto(Integer id) {
+	public Employee(Integer id) {
 		super();
 		Id = id;
 	}
 
-	public EmployeeDto(Integer id, String name, Integer salary, Integer phone, String email, String address) {
+	public Employee(Integer id, String name, Integer salary, Integer phone, String email, String address) {
 		super();
 		Id = id;
 		Name = name;
@@ -77,8 +78,8 @@ public class EmployeeDto {
 
 	@Override
 	public String toString() {
-		return "EmployeeDto [Id=" + Id + ", Name=" + Name + ", Salary=" + Salary + ", Phone=" + Phone + ", Email="
-				+ Email + ", Address=" + Address + "]";
+		return "Employee [Id=" + Id + ", Name=" + Name + ", Salary=" + Salary + ", Phone=" + Phone + ", Email=" + Email
+				+ ", Address=" + Address + "]";
 	}
 
 }

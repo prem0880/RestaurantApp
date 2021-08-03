@@ -1,26 +1,27 @@
-package com.rms.dto;
+package com.rms.entity;
 
-public class MenuDto {
+public class Menu {
+
 	private Integer Id;
 	private String Name;
 	private String Type;
 	private Integer Price;
 
-	public MenuDto() {
-		super();
-	}
-
-	public MenuDto(Integer id) {
+	public Menu(Integer id) {
 		super();
 		Id = id;
 	}
 
-	public MenuDto(Integer id, String name, String type, Integer price) {
+	public Menu(Integer id, String name, String type, Integer price) {
 		super();
 		Id = id;
 		Name = name;
 		Type = type;
 		Price = price;
+	}
+
+	public Menu() {
+		super();
 	}
 
 	public Integer getId() {
@@ -57,7 +58,7 @@ public class MenuDto {
 
 	@Override
 	public String toString() {
-		return "MenuDto [Id=" + Id + ", Name=" + Name + ", Type=" + Type + ", Price=" + Price + "]";
+		return "Menu [Id=" + Id + ", Name=" + Name + ", Type=" + Type + ", Price=" + Price + "]";
 	}
 
 }
