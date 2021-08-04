@@ -20,7 +20,7 @@ public class EmployeeClient {
 			throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException {
 
 		BasicConfigurator.configure();
-
+  
 		logger.info("In main");
 
 		EmployeeController econtrol = new EmployeeController();
