@@ -20,3 +20,4 @@
 2021-08-03 23:55:55 DEBUG MenuServiceImpl:73 - Inside 'DisplayFoodItem ServiceImpl'
 2021-08-03 23:55:55 INFO  MenuServiceImpl:75 - Food Items are
 
+2021-08-04 20:53:58 INFO  EmployeeClient:24 - In main
