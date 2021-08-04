@@ -86,24 +86,8 @@ public class MenuClient {
 
 				logger.info("OPERATION-UPDATION OF MENU ITEMS");
 
-				System.out.println("Enter the food item number");
 
-				int foodid = sc.nextInt();
-				sc.nextLine();
-
-				System.out.println("Enter the food item name to update");
-
-				String foodname = sc.nextLine();
-
-				System.out.println("Enter the food item type to update");
-
-				String foodtype = sc.nextLine();
-
-				System.out.println("Enter the food item price to update");
-
-				int foodprice = sc.nextInt();
-
-				MenuDto menudto = new MenuDto(foodid, foodname, foodtype, foodprice);
+				MenuDto menudto = new MenuDto();
 
 				menucontroller.updateFoodItem(menudto);
 
