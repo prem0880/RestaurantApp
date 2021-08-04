@@ -77,14 +77,15 @@ public class MenuDaoImpl implements MenuDao {
 			switch(statuscode) {
 			
 			case 1:{
-				try(Connection con = DBUtil.getConnection();) {
+					try(Connection con = DBUtil.getConnection();){
 					
 					
+					sc.nextLine();
 					
 					System.out.println("Enter the Food Name");
 					String foodname = sc.nextLine();
 					
-					
+					System.out.println("here");
 										
 					PreparedStatement pst=con.prepareStatement("update Menu set FoodName=? where FoodId=?");
 					
@@ -94,19 +95,21 @@ public class MenuDaoImpl implements MenuDao {
 					pst.executeUpdate();
 					
 					logger.info("Food Name is updated...");
+				
+					break;
 				}
 				catch(Exception e)
 				{
-					e.printStackTrace();
+						e.printStackTrace();
 				}
-				break;
-				}
-				
+			}		
 			case 2:{
 				try(Connection con = DBUtil.getConnection();) {
 					
+					sc.nextLine();
 					
 					System.out.println("Enter the Food Type");
+					
 					
 					String foodtype = sc.nextLine();
 			
@@ -129,6 +132,7 @@ public class MenuDaoImpl implements MenuDao {
 				try(Connection con = DBUtil.getConnection();) {
 					
 					
+					sc.nextLine();
 					
 					System.out.println("Enter the Food Price");
 					int foodprice = sc.nextInt();

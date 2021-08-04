@@ -126,3 +126,52 @@
 2021-08-04 23:28:32 INFO  MenuUtil:47 - In displayFood Util
 2021-08-04 23:28:32 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
 2021-08-04 23:28:32 INFO  MenuDaoImpl:184 - Food Details are displayed...
+2021-08-04 23:31:21 INFO  MenuClient:24 - In main
+2021-08-04 23:31:25 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-04 23:31:25 INFO  MenuController:43 - In updateFood Controller
+2021-08-04 23:31:25 INFO  MenuUtil:40 - In updateFood Util
+2021-08-04 23:31:25 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-04 23:31:36 INFO  MenuDaoImpl:120 - Food Type is updated...
+2021-08-04 23:34:51 INFO  MenuClient:24 - In main
+2021-08-04 23:34:53 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-04 23:34:53 INFO  MenuController:54 - In displayFood Controller
+2021-08-04 23:34:53 INFO  MenuUtil:47 - In displayFood Util
+2021-08-04 23:34:53 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-04 23:34:55 INFO  MenuDaoImpl:180 - Food Details are displayed...
+2021-08-04 23:34:59 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-04 23:34:59 INFO  MenuController:43 - In updateFood Controller
+2021-08-04 23:34:59 INFO  MenuUtil:40 - In updateFood Util
+2021-08-04 23:34:59 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-04 23:35:03 INFO  MenuDaoImpl:96 - Food Name is updated...
+2021-08-04 23:38:36 INFO  MenuClient:24 - In main
+2021-08-04 23:38:39 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-04 23:38:39 INFO  MenuController:54 - In displayFood Controller
+2021-08-04 23:38:39 INFO  MenuUtil:47 - In displayFood Util
+2021-08-04 23:38:39 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-04 23:38:41 INFO  MenuDaoImpl:181 - Food Details are displayed...
+2021-08-04 23:38:44 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-04 23:38:44 INFO  MenuController:43 - In updateFood Controller
+2021-08-04 23:38:44 INFO  MenuUtil:40 - In updateFood Util
+2021-08-04 23:38:44 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-04 23:38:46 INFO  MenuDaoImpl:97 - Food Name is updated...
+2021-08-04 23:38:51 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-04 23:38:51 INFO  MenuController:54 - In displayFood Controller
+2021-08-04 23:38:51 INFO  MenuUtil:47 - In displayFood Util
+2021-08-04 23:38:51 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-04 23:38:51 INFO  MenuDaoImpl:181 - Food Details are displayed...
+2021-08-04 23:39:17 INFO  MenuClient:24 - In main
+2021-08-04 23:39:28 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-04 23:39:28 INFO  MenuController:54 - In displayFood Controller
+2021-08-04 23:39:28 INFO  MenuUtil:47 - In displayFood Util
+2021-08-04 23:39:28 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-04 23:39:29 INFO  MenuDaoImpl:181 - Food Details are displayed...
+2021-08-04 23:39:31 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-04 23:39:31 INFO  MenuController:43 - In updateFood Controller
+2021-08-04 23:39:31 INFO  MenuUtil:40 - In updateFood Util
+2021-08-04 23:39:31 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-04 23:39:44 INFO  MenuDaoImpl:97 - Food Name is updated...
+2021-08-04 23:39:48 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-04 23:39:48 INFO  MenuController:54 - In displayFood Controller
+2021-08-04 23:39:48 INFO  MenuUtil:47 - In displayFood Util
+2021-08-04 23:39:48 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-04 23:39:48 INFO  MenuDaoImpl:181 - Food Details are displayed...
