@@ -5,10 +5,8 @@ import java.util.Scanner;
 import org.apache.log4j.Logger;
 
 import com.rms.dto.MenuDto;
-import com.rms.exception.DuplicateIDException;
-import com.rms.exception.EmptyListException;
 import com.rms.exception.IDNotExistException;
-import com.rms.exception.InvalidDeletionException;
+import com.rms.exception.InvalidIDException;
 import com.rms.service.MenuService;
 import com.rms.service.MenuServiceImpl;
 
@@ -20,7 +18,7 @@ public class MenuUtil implements MenuService {
 
 	Scanner sc = new Scanner(System.in);
 
-	public void addFoodItem(MenuDto menudto) throws DuplicateIDException {
+	public void addFoodItem(MenuDto menudto) throws InvalidIDException {
 
 		logger.info("In addFood Util");
 
@@ -28,7 +26,7 @@ public class MenuUtil implements MenuService {
 
 	}
 
-	public void deleteFoodItem(MenuDto menudto) throws InvalidDeletionException {
+	public void deleteFoodItem(MenuDto menudto)  {
 
 		logger.info("In deleteFood Util");
 		menuservice.deleteFoodItem(menudto);
@@ -42,7 +40,7 @@ public class MenuUtil implements MenuService {
 
 	}
 
-	public void displayFoodItem() throws EmptyListException {
+	public void displayFoodItem(){
 
 		logger.info("In displayFood Util");
 		menuservice.displayFoodItem();

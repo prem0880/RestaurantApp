@@ -8,16 +8,15 @@ import org.apache.log4j.Logger;
 import com.rms.controller.MenuController;
 import com.rms.dto.MenuDto;
 import com.rms.exception.DuplicateIDException;
-import com.rms.exception.EmptyListException;
 import com.rms.exception.IDNotExistException;
-import com.rms.exception.InvalidDeletionException;
+import com.rms.exception.InvalidSwitchException;
 
 public class MenuClient {
 
 	static Logger logger = Logger.getLogger(MenuClient.class);
 
 	public static void main(String[] args)
-			throws DuplicateIDException, InvalidDeletionException, IDNotExistException, EmptyListException {
+			throws DuplicateIDException, IDNotExistException, InvalidSwitchException {
 
 		BasicConfigurator.configure();
 
@@ -32,8 +31,8 @@ public class MenuClient {
 		for (;;) {
 			System.out.println("======Menu Designing - ADMIN==============");
 
-			System.out.println("1.Add Food Items" + "\n" + "2.Remove Food Items" + "\n" + "3.Update Food Items" + "\n"
-					+ "4.Display Food Items" + "\n" + "5.Exit" + "\n");
+			System.out.println("1.Add Food Items To Menu" + "\n" + "2.Remove Food Items From Menu" + "\n" + "3.Update Food Items In Menu" + "\n"
+					+ "4.Display Food Items of Menu" + "\n" + "5.Exit The Application" + "\n");
 
 			ch = sc.nextInt();
 
@@ -111,7 +110,7 @@ public class MenuClient {
 			}
 
 			default: {
-				System.out.println("\n" + "Enter a Valid Choice" + "\n");
+					throw new InvalidSwitchException("Invalid Switch Case..");
 
 			}
 

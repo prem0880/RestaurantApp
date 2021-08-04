@@ -9,6 +9,9 @@ import org.apache.log4j.Logger;
 
 import com.rms.db.DBUtil;
 import com.rms.dto.MenuDto;
+import com.rms.exception.DuplicateIDException;
+import com.rms.exception.IDNotExistException;
+import com.rms.exception.InvalidIDException;
 
 public class MenuDaoImpl implements MenuDao {
 
@@ -16,10 +19,65 @@ public class MenuDaoImpl implements MenuDao {
 	
 	Scanner sc  = new Scanner(System.in);
 	
+	public void CheckDuplicateID(Integer id) throws DuplicateIDException {
+		logger.info("Inside CheckDuplicateID");
+		Boolean flag = true;
+		try {
+			Connection con = DBUtil.getConnection();
+			PreparedStatement pst = con.prepareStatement("select * from Menu where FoodId=?");
+			pst.setInt(1, id);
+			ResultSet rs = pst.executeQuery();
+			while (rs.next()) {
+				flag=false;
+				break;
+			}
+
+		} catch (Exception e) {
+			
+		}
+		if(flag == false)
+		{
+			throw new DuplicateIDException("ID Alreay Exists in Db...");
+		}
+	}
+
+	public void CheckFoodID(Integer id) throws IDNotExistException {
+		logger.info("Inside CheckCourseID");
+		Boolean flag = false;
+		try {
+			Connection con = DBUtil.getConnection();
+			PreparedStatement pst = con.prepareStatement("select * from Menu where FoodId=?");
+			pst.setInt(1, id);
+			ResultSet rs = pst.executeQuery();
+			while (rs.next()) {
+				flag=true;
+			}
+
+		} catch (Exception e) {
+			
+		}
+		if(flag == false)
+		{
+			throw new IDNotExistException("ID Not Found in Db...");
+		}
+	}
+
 	@Override
-	public void addFoodItem(MenuDto menudto) {
+	public void addFoodItem(MenuDto menudto) throws InvalidIDException {
 	
 		logger.debug("Inside addFood-MenuDaoImpl..");
+		
+		if(menudto.getId()<100)
+		{
+			throw new InvalidIDException("Enter Valid ID");
+		}
+		
+		try {
+			CheckDuplicateID(menudto.getId());
+		} catch (DuplicateIDException e1) {
+			e1.printStackTrace();
+		}
+		
 		try {
 			Connection con=DBUtil.getConnection();
 			
@@ -42,10 +100,17 @@ public class MenuDaoImpl implements MenuDao {
 	@Override
 	public void deleteFoodItem(MenuDto menudto) {
 	
+		
 		logger.info("Inside deleteFood-MenuDaoImpl..");
 		try {
+			CheckFoodID(menudto.getId());
+		} catch (IDNotExistException e1) {
+			e1.printStackTrace();
+		}
+		try {
 			Connection con = DBUtil.getConnection();
-			PreparedStatement pst = con.prepareStatement("delete from Menu where MenuId=?");
+			PreparedStatement pst = con.prepareStatement("delete from Menu where FoodId=?");
+			
 			pst.setInt(1, menudto.getId());
 			pst.executeUpdate();
 			logger.info("Food Detail is deleted...");
@@ -56,6 +121,8 @@ public class MenuDaoImpl implements MenuDao {
 
 	}
 	
+
+	
 	@Override
 	public void updateFoodItem(MenuDto menudto) {
 	
@@ -64,6 +131,12 @@ public class MenuDaoImpl implements MenuDao {
 			System.out.println("Enter the Food ID");
 			int foodid = sc.nextInt();
 			
+			if(foodid<100)
+			{
+				throw new InvalidIDException("Enter Valid ID");
+			}
+			
+			CheckFoodID(foodid);
 			
 			System.out.println("\n"+"Fields  -  Update Status Code");
 			System.out.println("Food Name    - 1");

@@ -3,10 +3,9 @@ package com.rms.controller;
 import org.apache.log4j.Logger;
 
 import com.rms.dto.MenuDto;
-import com.rms.exception.DuplicateIDException;
-import com.rms.exception.EmptyListException;
+
 import com.rms.exception.IDNotExistException;
-import com.rms.exception.InvalidDeletionException;
+import com.rms.exception.InvalidIDException;
 import com.rms.util.MenuUtil;
 
 public class MenuController {
@@ -21,7 +20,7 @@ public class MenuController {
 
 		try {
 			menuutil.addFoodItem(menudto);
-		} catch (DuplicateIDException e) {
+		} catch (InvalidIDException e) {
 
 			e.printStackTrace();
 		}
@@ -33,7 +32,7 @@ public class MenuController {
 
 		try {
 			menuutil.deleteFoodItem(menudto);
-		} catch (InvalidDeletionException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
@@ -55,7 +54,7 @@ public class MenuController {
 
 		try {
 			menuutil.displayFoodItem();
-		} catch (EmptyListException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 
