@@ -8,7 +8,7 @@ public class InvalidIDException extends Exception {
 
 	public InvalidIDException(String msg) {
 		super(msg);
-		logger.info("Inside Invalid Id Exception");
+		logger.warn("Inside Invalid Id Exception");
 	}
 
 }

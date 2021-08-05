@@ -604,3 +604,11 @@
 2021-08-05 01:09:46 DEBUG MenuServiceImpl:39 - Inside 'UpdateFoodItem ServiceImpl'
 2021-08-05 01:09:48 INFO  MenuDaoImpl:45 - Inside CheckCourseID
 2021-08-05 01:09:50 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
+2021-08-05 01:16:23 INFO  MenuClient:23 - In main
+2021-08-05 01:16:25 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-05 01:16:25 INFO  MenuController:53 - In displayFood Controller
+2021-08-05 01:16:25 INFO  MenuUtil:45 - In displayFood Util
+2021-08-05 01:16:25 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-05 01:16:27 INFO  MenuDaoImpl:261 - Food Details are displayed...
+2021-08-05 07:03:03 INFO  MenuClient:23 - In main
+2021-08-05 07:03:08 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
