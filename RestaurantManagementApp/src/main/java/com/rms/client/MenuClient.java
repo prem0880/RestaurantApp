@@ -2,13 +2,11 @@ package com.rms.client;
 
 import java.util.Scanner;
 
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
 import com.rms.controller.MenuController;
 import com.rms.dto.MenuDto;
-import com.rms.exception.DuplicateIDException;
-import com.rms.exception.IDNotExistException;
+import com.rms.exception.InvalidIDException;
 import com.rms.exception.InvalidSwitchException;
 
 public class MenuClient {
@@ -16,9 +14,8 @@ public class MenuClient {
 	static Logger logger = Logger.getLogger(MenuClient.class);
 
 	public static void main(String[] args)
-			throws DuplicateIDException, IDNotExistException, InvalidSwitchException {
+			throws InvalidIDException {
 
-		BasicConfigurator.configure();
 
 		logger.info("In main");
 
@@ -29,10 +26,13 @@ public class MenuClient {
 		int ch;
 
 		for (;;) {
-			System.out.println("======Menu Designing - ADMIN==============");
+			logger.info("======Menu Designing - ADMIN==============");
 
-			System.out.println("1.Add Food Items To Menu" + "\n" + "2.Remove Food Items From Menu" + "\n" + "3.Update Food Items In Menu" + "\n"
-					+ "4.Display Food Items of Menu" + "\n" + "5.Exit The Application" + "\n");
+			logger.info("1.Add Food Items To Menu");
+			logger.info("2.Remove Food Items From Menu");
+			logger.info("3.Update Food Items In Menu");
+			logger.info("4.Display Food Items of Menu"); 
+			logger.info("5.Exit The Application");
 
 			ch = sc.nextInt();
 
@@ -42,20 +42,29 @@ public class MenuClient {
 
 				logger.info("OPERATION-CREATION/ADDING OF MENU ITEMS");
 
-				System.out.println("Enter the food item number");
+				logger.info("Enter the food item number");
 
+				logger.info("Food Items Id between 100 and 150");
+				
+				
 				int foodid = sc.nextInt();
+				
+				if(foodid<100 || foodid>=150)
+				{
+					throw new InvalidIDException("Enter Valid ID");
+				}
+				
 				sc.nextLine();
-
-				System.out.println("Enter the food item name");
+				
+				logger.info("Enter the food item name");
 
 				String foodname = sc.nextLine();
 
-				System.out.println("Enter the food item type");
+				logger.info("Enter the food item type");
 
 				String foodtype = sc.nextLine();
 
-				System.out.println("Enter the food item price");
+				logger.info("Enter the food item price");
 
 				int foodprice = sc.nextInt();
 
@@ -69,11 +78,19 @@ public class MenuClient {
 
 				logger.info("OPERATION-DELETION OF MENU ITEMS");
 
-				System.out.println("Enter the food item number");
-
+				logger.info("Enter the food item number");
+				
+				logger.info("Food Items Id between 100 and 150");
+				
 				int foodid = sc.nextInt();
+				
+				if(foodid<100 || foodid>=150)
+				{
+					throw new InvalidIDException("Enter Valid ID");
+				}
+				
 				sc.nextLine();
-
+				
 				MenuDto menudto = new MenuDto(foodid);
 
 				menucontroller.deleteFoodItem(menudto);
@@ -84,7 +101,6 @@ public class MenuClient {
 			case 3: {
 
 				logger.info("OPERATION-UPDATION OF MENU ITEMS");
-
 
 				MenuDto menudto = new MenuDto();
 
@@ -110,8 +126,10 @@ public class MenuClient {
 			}
 
 			default: {
+					try {
 					throw new InvalidSwitchException("Invalid Switch Case..");
-
+					}
+					catch(Exception e) {logger.info(e);}
 			}
 
 			}

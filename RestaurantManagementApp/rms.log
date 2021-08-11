@@ -1,614 +1,675 @@
-2021-08-03 23:48:20 INFO  EmployeeClient:26 - In main
-2021-08-03 23:48:29 INFO  EmployeeClient:47 - OPERATION-CREATION/ADDING OF EMPLOYEE RECORDS
-2021-08-03 23:48:56 INFO  EmployeeController:21 - In addEmployee-controller
-2021-08-03 23:48:56 INFO  EmployeeUtil:23 - In addEmployee-Util
-2021-08-03 23:48:56 DEBUG EmployeeServiceImpl:27 - In add Employee-ServiceImplementation
-2021-08-03 23:49:06 INFO  EmployeeClient:144 - OPERATION-DISPLAYING OF EMPLOYEE RECORDS
-2021-08-03 23:49:06 INFO  EmployeeController:61 - In displayEmployee-controller
-2021-08-03 23:49:06 INFO  EmployeeUtil:51 - In displayEmployee-Util
-2021-08-03 23:49:06 DEBUG EmployeeServiceImpl:95 - In display Employee-ServiceImplementation
-2021-08-03 23:49:06 INFO  EmployeeServiceImpl:97 - Employee Records are
-
-2021-08-03 23:55:28 INFO  MenuClient:24 - In main
-2021-08-03 23:55:32 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-03 23:55:53 INFO  MenuController:20 - In addFood Controller
-2021-08-03 23:55:53 INFO  MenuUtil:25 - In addFood Util
-2021-08-03 23:55:53 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-03 23:55:55 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-03 23:55:55 INFO  MenuController:54 - In displayFood Controller
-2021-08-03 23:55:55 INFO  MenuUtil:47 - In displayFood Util
-2021-08-03 23:55:55 DEBUG MenuServiceImpl:73 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-03 23:55:55 INFO  MenuServiceImpl:75 - Food Items are
-
-2021-08-04 20:53:58 INFO  EmployeeClient:24 - In main
-2021-08-04 22:02:40 INFO  EmployeeClient:24 - In main
-2021-08-04 22:03:02 INFO  EmployeeClient:44 - OPERATION-CREATION/ADDING OF EMPLOYEE RECORDS
-2021-08-04 22:03:18 INFO  EmployeeController:19 - In addEmployee-controller
-2021-08-04 22:03:18 INFO  EmployeeUtil:19 - In addEmployee-Util
-2021-08-04 22:03:18 DEBUG EmployeeServiceImpl:25 - In add Employee-ServiceImplementation
-2021-08-04 22:03:21 INFO  EmployeeClient:137 - OPERATION-DISPLAYING OF EMPLOYEE RECORDS
-2021-08-04 22:03:21 INFO  EmployeeController:51 - In displayEmployee-controller
-2021-08-04 22:03:21 INFO  EmployeeUtil:39 - In displayEmployee-Util
-2021-08-04 22:03:21 DEBUG EmployeeServiceImpl:84 - In display Employee-ServiceImplementation
-2021-08-04 22:03:21 INFO  EmployeeServiceImpl:86 - Employee Records are
-
-2021-08-04 23:14:26 INFO  MenuClient:24 - In main
-2021-08-04 23:14:39 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:14:56 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:14:56 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:14:56 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:14:56 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:15:42 INFO  MenuClient:24 - In main
-2021-08-04 23:15:44 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:16:01 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:16:01 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:16:01 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:16:01 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:16:33 INFO  MenuClient:24 - In main
-2021-08-04 23:16:34 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:16:42 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:16:42 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:16:42 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:16:42 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:16:49 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:16:49 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:16:49 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:16:49 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:21:29 INFO  MenuClient:24 - In main
-2021-08-04 23:21:33 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:21:33 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:21:33 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:21:33 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:21:35 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:21:39 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:21:49 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:21:49 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:21:49 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:21:49 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:21:49 INFO  MenuDaoImpl:32 - Food Details are inserted..
-2021-08-04 23:21:54 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:21:54 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:21:54 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:21:54 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:21:54 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:22:09 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:23:50 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:23:50 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:23:50 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:23:50 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:23:50 INFO  MenuDaoImpl:32 - Food Details are inserted..
-2021-08-04 23:23:53 INFO  MenuClient:116 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:23:53 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:23:53 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:23:53 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:23:53 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:23:58 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-04 23:24:10 INFO  MenuController:20 - In addFood Controller
-2021-08-04 23:24:10 INFO  MenuUtil:25 - In addFood Util
-2021-08-04 23:24:10 DEBUG MenuServiceImpl:26 - Inside 'AddFoodItem ServiceImp'
-2021-08-04 23:24:10 DEBUG MenuDaoImpl:22 - Inside addFood-MenuDaoImpl..
-2021-08-04 23:24:34 INFO  MenuClient:71 - OPERATION-DELETION OF MENU ITEMS
-2021-08-04 23:24:36 INFO  MenuController:32 - In deleteFood Controller
-2021-08-04 23:24:36 INFO  MenuUtil:33 - In deleteFood Util
-2021-08-04 23:24:36 DEBUG MenuServiceImpl:36 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-04 23:24:36 INFO  MenuDaoImpl:45 - Inside deleteFood-MenuDaoImpl..
-2021-08-04 23:24:45 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:26:22 INFO  MenuClient:24 - In main
-2021-08-04 23:26:24 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:26:24 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:26:24 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:26:24 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:26:26 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:27:07 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:27:07 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:27:07 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:27:07 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:27:07 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:27:19 INFO  MenuClient:24 - In main
-2021-08-04 23:27:21 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:27:21 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:27:21 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:27:21 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:27:22 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:27:48 INFO  MenuClient:24 - In main
-2021-08-04 23:27:51 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:27:51 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:27:51 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:27:51 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:27:52 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:28:00 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:28:00 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:28:00 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:28:00 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:28:15 INFO  MenuDaoImpl:96 - Food Name is updated...
-2021-08-04 23:28:32 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:28:32 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:28:32 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:28:32 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:28:32 INFO  MenuDaoImpl:184 - Food Details are displayed...
-2021-08-04 23:31:21 INFO  MenuClient:24 - In main
-2021-08-04 23:31:25 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:31:25 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:31:25 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:31:25 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:31:36 INFO  MenuDaoImpl:120 - Food Type is updated...
-2021-08-04 23:34:51 INFO  MenuClient:24 - In main
-2021-08-04 23:34:53 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:34:53 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:34:53 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:34:53 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:34:55 INFO  MenuDaoImpl:180 - Food Details are displayed...
-2021-08-04 23:34:59 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:34:59 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:34:59 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:34:59 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:35:03 INFO  MenuDaoImpl:96 - Food Name is updated...
-2021-08-04 23:38:36 INFO  MenuClient:24 - In main
-2021-08-04 23:38:39 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:38:39 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:38:39 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:38:39 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:38:41 INFO  MenuDaoImpl:181 - Food Details are displayed...
-2021-08-04 23:38:44 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:38:44 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:38:44 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:38:44 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:38:46 INFO  MenuDaoImpl:97 - Food Name is updated...
-2021-08-04 23:38:51 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:38:51 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:38:51 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:38:51 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:38:51 INFO  MenuDaoImpl:181 - Food Details are displayed...
-2021-08-04 23:39:17 INFO  MenuClient:24 - In main
-2021-08-04 23:39:28 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:39:28 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:39:28 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:39:28 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:39:29 INFO  MenuDaoImpl:181 - Food Details are displayed...
-2021-08-04 23:39:31 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:39:31 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:39:31 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:39:31 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:39:44 INFO  MenuDaoImpl:97 - Food Name is updated...
-2021-08-04 23:39:48 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:39:48 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:39:48 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:39:48 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:39:48 INFO  MenuDaoImpl:181 - Food Details are displayed...
-2021-08-04 23:53:06 INFO  MenuClient:24 - In main
-2021-08-04 23:53:08 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:53:08 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:53:08 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:53:08 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:53:09 INFO  MenuDaoImpl:188 - Food Details are displayed...
-2021-08-04 23:53:27 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:53:27 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:53:27 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:53:27 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:53:35 INFO  MenuDaoImpl:123 - Food Type is updated...
-2021-08-04 23:53:37 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:53:37 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:53:37 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:53:37 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:53:37 INFO  MenuDaoImpl:188 - Food Details are displayed...
-2021-08-04 23:53:40 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-04 23:53:40 INFO  MenuController:43 - In updateFood Controller
-2021-08-04 23:53:40 INFO  MenuUtil:40 - In updateFood Util
-2021-08-04 23:53:40 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-04 23:53:47 INFO  MenuDaoImpl:97 - Food Name is updated...
-2021-08-04 23:53:51 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:53:51 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:53:51 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:53:51 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:53:51 INFO  MenuDaoImpl:188 - Food Details are displayed...
-2021-08-04 23:54:06 INFO  MenuClient:71 - OPERATION-DELETION OF MENU ITEMS
-2021-08-04 23:54:08 INFO  MenuController:32 - In deleteFood Controller
-2021-08-04 23:54:08 INFO  MenuUtil:33 - In deleteFood Util
-2021-08-04 23:54:08 DEBUG MenuServiceImpl:36 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-04 23:54:08 INFO  MenuDaoImpl:45 - Inside deleteFood-MenuDaoImpl..
-2021-08-04 23:54:23 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-04 23:54:23 INFO  MenuController:54 - In displayFood Controller
-2021-08-04 23:54:23 INFO  MenuUtil:47 - In displayFood Util
-2021-08-04 23:54:23 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-04 23:54:23 INFO  MenuDaoImpl:188 - Food Details are displayed...
-2021-08-05 00:02:59 INFO  MenuClient:24 - In main
-2021-08-05 00:03:05 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:03:05 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:03:05 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:03:05 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:03:06 INFO  MenuDaoImpl:211 - Food Details are displayed...
-2021-08-05 00:03:10 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:03:10 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:03:10 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:03:10 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:03:12 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:03:12 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 00:03:57 INFO  MenuClient:24 - In main
-2021-08-05 00:04:02 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:04:02 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:04:02 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:04:02 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:04:04 INFO  MenuDaoImpl:206 - Food Details are displayed...
-2021-08-05 00:04:06 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:04:06 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:04:06 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:04:06 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:04:09 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:08:49 INFO  MenuClient:24 - In main
-2021-08-05 00:08:52 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:08:52 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:08:52 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:08:52 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:08:53 INFO  MenuDaoImpl:211 - Food Details are displayed...
-2021-08-05 00:09:02 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:09:02 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:09:02 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:09:02 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:09:04 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:09:04 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 00:25:26 INFO  MenuClient:24 - In main
-2021-08-05 00:25:33 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:25:33 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:25:33 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:25:33 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:25:34 INFO  MenuDaoImpl:212 - Food Details are displayed...
-2021-08-05 00:25:38 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:25:38 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:25:38 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:25:38 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:25:40 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:25:40 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 00:26:15 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:26:15 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:26:15 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:26:15 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:26:18 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:26:24 INFO  MenuDaoImpl:172 - Food Price is updated...
-2021-08-05 00:26:26 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:26:26 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:26:26 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:26:26 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:26:27 INFO  MenuDaoImpl:212 - Food Details are displayed...
-2021-08-05 00:26:33 INFO  MenuClient:87 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:26:33 INFO  MenuController:43 - In updateFood Controller
-2021-08-05 00:26:33 INFO  MenuUtil:40 - In updateFood Util
-2021-08-05 00:26:33 DEBUG MenuServiceImpl:44 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:26:36 INFO  MenuDaoImpl:61 - Inside CheckCourseID
-2021-08-05 00:26:46 INFO  MenuDaoImpl:147 - Food Type is updated...
-2021-08-05 00:26:48 INFO  MenuClient:100 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:26:48 INFO  MenuController:54 - In displayFood Controller
-2021-08-05 00:26:48 INFO  MenuUtil:47 - In displayFood Util
-2021-08-05 00:26:48 DEBUG MenuServiceImpl:52 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:26:48 INFO  MenuDaoImpl:212 - Food Details are displayed...
-2021-08-05 00:42:58 INFO  MenuClient:23 - In main
-2021-08-05 00:43:00 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:43:12 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:43:12 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:43:12 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:43:12 DEBUG MenuDaoImpl:46 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:43:14 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:43:14 WARN  DuplicateIDException:11 - Inside Custom Exception of Add!!!
-2021-08-05 00:43:39 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:43:39 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:43:39 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:43:39 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:43:40 INFO  MenuDaoImpl:237 - Food Details are displayed...
-2021-08-05 00:43:42 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:44:05 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:44:05 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:44:05 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:44:05 DEBUG MenuDaoImpl:46 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:44:05 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:44:05 INFO  MenuDaoImpl:57 - Food Details are inserted..
-2021-08-05 00:44:08 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:44:08 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:44:08 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:44:08 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:44:08 INFO  MenuDaoImpl:237 - Food Details are displayed...
-2021-08-05 00:44:13 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:44:27 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:44:27 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:44:27 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:44:27 DEBUG MenuDaoImpl:46 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:44:28 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:44:28 WARN  DuplicateIDException:11 - Inside Custom Exception of Add!!!
-2021-08-05 00:45:38 INFO  MenuClient:23 - In main
-2021-08-05 00:45:40 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:45:40 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:45:40 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:45:40 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:45:42 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:45:44 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:45:44 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 00:45:44 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 00:45:44 DEBUG MenuServiceImpl:42 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:45:49 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:46:40 INFO  MenuDaoImpl:147 - Food Name is updated...
-2021-08-05 00:46:41 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:46:41 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:46:41 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:46:41 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:46:41 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:46:45 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:46:45 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 00:46:45 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 00:46:45 DEBUG MenuServiceImpl:42 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:46:49 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:46:58 INFO  MenuDaoImpl:173 - Food Type is updated...
-2021-08-05 00:47:00 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:47:00 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:47:00 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:47:00 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:47:00 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:47:04 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 00:47:04 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 00:47:04 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 00:47:04 DEBUG MenuServiceImpl:42 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 00:47:06 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:47:09 INFO  MenuDaoImpl:198 - Food Price is updated...
-2021-08-05 00:47:11 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:47:11 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:47:11 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:47:11 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:47:11 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:47:35 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:47:37 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:47:37 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:47:37 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:47:37 INFO  MenuDaoImpl:91 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:47:37 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:47:57 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:47:57 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:47:57 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:47:57 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:47:57 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:48:14 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:48:15 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:48:15 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:48:15 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:48:15 INFO  MenuDaoImpl:91 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:48:15 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:48:26 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:48:27 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:48:27 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:48:27 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:48:27 INFO  MenuDaoImpl:91 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:48:27 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:50:25 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:50:27 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:50:27 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:50:27 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:50:27 INFO  MenuDaoImpl:91 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:50:27 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:50:27 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 00:50:29 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:50:30 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:50:30 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:50:30 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:50:30 INFO  MenuDaoImpl:91 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:50:30 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:50:32 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:50:42 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:50:42 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:50:42 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:50:42 DEBUG MenuDaoImpl:67 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:50:42 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:50:42 INFO  MenuDaoImpl:78 - Food Details are inserted..
-2021-08-05 00:50:47 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:50:47 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:50:47 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:50:47 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:50:47 INFO  MenuDaoImpl:238 - Food Details are displayed...
-2021-08-05 00:51:30 INFO  MenuClient:23 - In main
-2021-08-05 00:51:32 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:51:34 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:51:34 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:51:34 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:51:34 INFO  MenuDaoImpl:97 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:51:34 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:52:23 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:52:35 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:52:35 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:52:35 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:52:35 DEBUG MenuDaoImpl:67 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:52:35 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:52:35 INFO  MenuDaoImpl:83 - Food Details are inserted..
-2021-08-05 00:52:39 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:52:39 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:52:39 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:52:39 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:52:39 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:53:15 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:53:18 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:53:18 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:53:18 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:53:18 INFO  MenuDaoImpl:97 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:53:18 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:53:33 INFO  MenuClient:23 - In main
-2021-08-05 00:53:35 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:53:35 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:53:35 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:53:35 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:53:37 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:53:40 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:53:42 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:53:42 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:53:42 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:53:42 INFO  MenuDaoImpl:97 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:53:42 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:53:42 INFO  MenuDaoImpl:109 - Food Detail is deleted...
-2021-08-05 00:53:44 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:53:44 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:53:44 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:53:44 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:53:44 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:53:47 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:53:49 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:53:49 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:53:49 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:53:49 INFO  MenuDaoImpl:97 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:53:49 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:53:49 INFO  MenuDaoImpl:109 - Food Detail is deleted...
-2021-08-05 00:53:51 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:53:51 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:53:51 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:53:51 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:53:51 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:53:54 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:53:55 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:53:55 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:53:55 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:53:55 INFO  MenuDaoImpl:97 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:53:55 INFO  MenuDaoImpl:44 - Inside CheckCourseID
-2021-08-05 00:53:55 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 00:53:55 INFO  MenuDaoImpl:109 - Food Detail is deleted...
-2021-08-05 00:53:58 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:53:58 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:53:58 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:53:58 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:53:58 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:54:00 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:54:06 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:54:06 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:54:06 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:54:06 DEBUG MenuDaoImpl:67 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:54:06 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:54:06 WARN  DuplicateIDException:11 - Inside Custom Exception of Add!!!
-2021-08-05 00:54:20 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:54:58 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:54:58 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:54:58 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:54:58 DEBUG MenuDaoImpl:67 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:54:58 INFO  MenuDaoImpl:22 - Inside CheckDuplicateID
-2021-08-05 00:54:58 INFO  MenuDaoImpl:83 - Food Details are inserted..
-2021-08-05 00:54:59 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:54:59 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:54:59 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:54:59 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:55:00 INFO  MenuDaoImpl:249 - Food Details are displayed...
-2021-08-05 00:59:04 INFO  MenuClient:23 - In main
-2021-08-05 00:59:06 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 00:59:13 INFO  MenuController:19 - In addFood Controller
-2021-08-05 00:59:13 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 00:59:13 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 00:59:13 DEBUG MenuDaoImpl:68 - Inside addFood-MenuDaoImpl..
-2021-08-05 00:59:13 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 00:59:15 INFO  MenuDaoImpl:91 - Food Details are inserted..
-2021-08-05 00:59:29 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:59:29 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:59:29 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:59:29 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:59:29 INFO  MenuDaoImpl:257 - Food Details are displayed...
-2021-08-05 00:59:44 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 00:59:45 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 00:59:45 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 00:59:45 DEBUG MenuServiceImpl:34 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 00:59:45 INFO  MenuDaoImpl:105 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 00:59:45 INFO  MenuDaoImpl:45 - Inside CheckCourseID
-2021-08-05 00:59:45 INFO  MenuDaoImpl:117 - Food Detail is deleted...
-2021-08-05 00:59:47 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 00:59:47 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 00:59:47 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 00:59:47 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 00:59:47 INFO  MenuDaoImpl:257 - Food Details are displayed...
-2021-08-05 01:00:15 INFO  MenuClient:23 - In main
-2021-08-05 01:00:19 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 01:00:25 INFO  MenuController:19 - In addFood Controller
-2021-08-05 01:00:25 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 01:00:25 DEBUG MenuServiceImpl:24 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 01:00:25 DEBUG MenuDaoImpl:68 - Inside addFood-MenuDaoImpl..
-2021-08-05 01:00:25 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 01:00:26 INFO  MenuDaoImpl:91 - Food Details are inserted..
-2021-08-05 01:00:31 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:00:31 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:00:31 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:00:31 DEBUG MenuServiceImpl:50 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:00:31 INFO  MenuDaoImpl:257 - Food Details are displayed...
-2021-08-05 01:04:31 INFO  MenuClient:23 - In main
-2021-08-05 01:04:32 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 01:04:41 INFO  MenuController:19 - In addFood Controller
-2021-08-05 01:04:41 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 01:04:41 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 01:04:41 DEBUG MenuDaoImpl:68 - Inside addFood-MenuDaoImpl..
-2021-08-05 01:04:41 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 01:04:49 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:04:49 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:04:49 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:04:49 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:04:50 INFO  MenuDaoImpl:254 - Food Details are displayed...
-2021-08-05 01:05:05 INFO  MenuClient:70 - OPERATION-DELETION OF MENU ITEMS
-2021-08-05 01:05:07 INFO  MenuController:31 - In deleteFood Controller
-2021-08-05 01:05:07 INFO  MenuUtil:31 - In deleteFood Util
-2021-08-05 01:05:07 DEBUG MenuServiceImpl:31 - Inside 'DeleteFoodItem ServiceImpl'
-2021-08-05 01:05:07 INFO  MenuDaoImpl:102 - Inside deleteFood-MenuDaoImpl..
-2021-08-05 01:05:07 INFO  MenuDaoImpl:45 - Inside CheckCourseID
-2021-08-05 01:05:07 INFO  MenuDaoImpl:114 - Food Detail is deleted...
-2021-08-05 01:05:09 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:05:09 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:05:09 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:05:09 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:05:09 INFO  MenuDaoImpl:254 - Food Details are displayed...
-2021-08-05 01:05:16 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 01:05:21 INFO  MenuController:19 - In addFood Controller
-2021-08-05 01:05:21 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 01:05:21 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 01:05:21 DEBUG MenuDaoImpl:68 - Inside addFood-MenuDaoImpl..
-2021-08-05 01:05:21 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 01:05:23 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:05:23 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:05:23 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:05:23 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:05:23 INFO  MenuDaoImpl:254 - Food Details are displayed...
-2021-08-05 01:05:27 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
-2021-08-05 01:05:41 INFO  MenuController:19 - In addFood Controller
-2021-08-05 01:05:41 INFO  MenuUtil:23 - In addFood Util
-2021-08-05 01:05:41 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
-2021-08-05 01:05:41 DEBUG MenuDaoImpl:68 - Inside addFood-MenuDaoImpl..
-2021-08-05 01:05:41 INFO  MenuDaoImpl:23 - Inside CheckDuplicateID
-2021-08-05 01:05:41 INFO  MenuDaoImpl:88 - Food Details are inserted..
-2021-08-05 01:05:42 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:05:42 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:05:42 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:05:42 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:05:42 INFO  MenuDaoImpl:254 - Food Details are displayed...
-2021-08-05 01:07:29 INFO  MenuClient:23 - In main
-2021-08-05 01:07:32 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 01:07:32 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 01:07:32 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 01:07:32 DEBUG MenuServiceImpl:39 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 01:08:03 INFO  MenuClient:23 - In main
-2021-08-05 01:08:07 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 01:08:07 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 01:08:07 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 01:08:07 DEBUG MenuServiceImpl:39 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 01:08:09 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 01:08:16 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:08:16 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:08:16 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:08:16 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:08:18 INFO  MenuDaoImpl:257 - Food Details are displayed...
-2021-08-05 01:08:26 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 01:08:26 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 01:08:26 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 01:08:26 DEBUG MenuServiceImpl:39 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 01:08:29 INFO  InvalidIDException:11 - Inside Invalid Id Exception
-2021-08-05 01:08:34 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:08:34 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:08:34 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:08:34 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:08:35 INFO  MenuDaoImpl:257 - Food Details are displayed...
-2021-08-05 01:09:33 INFO  MenuClient:23 - In main
-2021-08-05 01:09:46 INFO  MenuClient:86 - OPERATION-UPDATION OF MENU ITEMS
-2021-08-05 01:09:46 INFO  MenuController:42 - In updateFood Controller
-2021-08-05 01:09:46 INFO  MenuUtil:38 - In updateFood Util
-2021-08-05 01:09:46 DEBUG MenuServiceImpl:39 - Inside 'UpdateFoodItem ServiceImpl'
-2021-08-05 01:09:48 INFO  MenuDaoImpl:45 - Inside CheckCourseID
-2021-08-05 01:09:50 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
-2021-08-05 01:16:23 INFO  MenuClient:23 - In main
-2021-08-05 01:16:25 INFO  MenuClient:99 - OPERATION-DISPLAYING OF MENU ITEMS
-2021-08-05 01:16:25 INFO  MenuController:53 - In displayFood Controller
-2021-08-05 01:16:25 INFO  MenuUtil:45 - In displayFood Util
-2021-08-05 01:16:25 DEBUG MenuServiceImpl:47 - Inside 'DisplayFoodItem ServiceImpl'
-2021-08-05 01:16:27 INFO  MenuDaoImpl:261 - Food Details are displayed...
-2021-08-05 07:03:03 INFO  MenuClient:23 - In main
-2021-08-05 07:03:08 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 21:50:10 INFO  MenuClient:22 - In main
+2021-08-11 21:50:10 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:50:10 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:50:10 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:50:10 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:50:10 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:50:10 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:50:17 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 21:50:17 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 21:50:17 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 21:50:17 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 21:50:18 INFO  MenuDaoImpl:252 - Food ID:100
+2021-08-11 21:50:18 INFO  MenuDaoImpl:253 - Food Name:shawarma
+2021-08-11 21:50:18 INFO  MenuDaoImpl:254 - Food Type:meatt
+2021-08-11 21:50:18 INFO  MenuDaoImpl:255 - Food Price:1000
+2021-08-11 21:50:18 INFO  MenuDaoImpl:252 - Food ID:101
+2021-08-11 21:50:18 INFO  MenuDaoImpl:253 - Food Name:Milk
+2021-08-11 21:50:18 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:50:18 INFO  MenuDaoImpl:255 - Food Price:75
+2021-08-11 21:50:18 INFO  MenuDaoImpl:252 - Food ID:102
+2021-08-11 21:50:18 INFO  MenuDaoImpl:253 - Food Name:pani
+2021-08-11 21:50:18 INFO  MenuDaoImpl:254 - Food Type:vegg
+2021-08-11 21:50:18 INFO  MenuDaoImpl:255 - Food Price:50
+2021-08-11 21:50:18 INFO  MenuDaoImpl:252 - Food ID:103
+2021-08-11 21:50:18 INFO  MenuDaoImpl:253 - Food Name:icecream
+2021-08-11 21:50:18 INFO  MenuDaoImpl:254 - Food Type:non-veg
+2021-08-11 21:50:18 INFO  MenuDaoImpl:255 - Food Price:100
+2021-08-11 21:50:18 INFO  MenuDaoImpl:252 - Food ID:104
+2021-08-11 21:50:18 INFO  MenuDaoImpl:253 - Food Name:Paneer Butter Masala
+2021-08-11 21:50:18 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:50:18 INFO  MenuDaoImpl:255 - Food Price:400
+2021-08-11 21:50:18 INFO  MenuDaoImpl:259 - Food Details are displayed...
+2021-08-11 21:50:18 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:50:18 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:50:18 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:50:18 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:50:18 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:50:18 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:50:27 INFO  MenuClient:88 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-11 21:50:27 INFO  MenuController:42 - In updateFood Controller
+2021-08-11 21:50:27 INFO  MenuUtil:38 - In updateFood Util
+2021-08-11 21:50:27 DEBUG MenuServiceImpl:43 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-11 21:50:27 INFO  MenuDaoImpl:131 - Enter the Food ID
+2021-08-11 21:50:30 INFO  MenuDaoImpl:45 - Inside CheckCourseID
+2021-08-11 21:50:30 INFO  MenuDaoImpl:141 - Fields  -  Update Status Code
+2021-08-11 21:50:30 INFO  MenuDaoImpl:142 - Food Name    - 1
+2021-08-11 21:50:30 INFO  MenuDaoImpl:143 - Food Type    - 2
+2021-08-11 21:50:30 INFO  MenuDaoImpl:144 - Food Price   - 3
+2021-08-11 21:50:30 INFO  MenuDaoImpl:146 - Enter the update status code to update which details
+2021-08-11 21:50:38 INFO  MenuDaoImpl:208 - Enter the Food Price
+2021-08-11 21:50:44 INFO  MenuDaoImpl:219 - Food Price is updated...
+2021-08-11 21:50:44 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:50:44 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:50:44 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:50:44 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:50:44 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:50:44 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:50:45 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 21:50:45 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 21:50:45 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 21:50:45 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 21:50:45 INFO  MenuDaoImpl:252 - Food ID:100
+2021-08-11 21:50:45 INFO  MenuDaoImpl:253 - Food Name:shawarma
+2021-08-11 21:50:45 INFO  MenuDaoImpl:254 - Food Type:meatt
+2021-08-11 21:50:45 INFO  MenuDaoImpl:255 - Food Price:1000
+2021-08-11 21:50:45 INFO  MenuDaoImpl:252 - Food ID:101
+2021-08-11 21:50:45 INFO  MenuDaoImpl:253 - Food Name:Milk
+2021-08-11 21:50:45 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:50:45 INFO  MenuDaoImpl:255 - Food Price:75
+2021-08-11 21:50:45 INFO  MenuDaoImpl:252 - Food ID:102
+2021-08-11 21:50:45 INFO  MenuDaoImpl:253 - Food Name:pani
+2021-08-11 21:50:45 INFO  MenuDaoImpl:254 - Food Type:vegg
+2021-08-11 21:50:45 INFO  MenuDaoImpl:255 - Food Price:50
+2021-08-11 21:50:45 INFO  MenuDaoImpl:252 - Food ID:103
+2021-08-11 21:50:45 INFO  MenuDaoImpl:253 - Food Name:icecream
+2021-08-11 21:50:45 INFO  MenuDaoImpl:254 - Food Type:non-veg
+2021-08-11 21:50:45 INFO  MenuDaoImpl:255 - Food Price:100
+2021-08-11 21:50:45 INFO  MenuDaoImpl:252 - Food ID:104
+2021-08-11 21:50:45 INFO  MenuDaoImpl:253 - Food Name:Paneer Butter Masala
+2021-08-11 21:50:45 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:50:45 INFO  MenuDaoImpl:255 - Food Price:150
+2021-08-11 21:50:45 INFO  MenuDaoImpl:259 - Food Details are displayed...
+2021-08-11 21:50:45 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:50:45 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:50:45 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:50:45 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:50:45 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:50:45 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:50:59 INFO  MenuClient:72 - OPERATION-DELETION OF MENU ITEMS
+2021-08-11 21:50:59 INFO  MenuClient:74 - Enter the food item number
+2021-08-11 21:51:06 INFO  MenuController:31 - In deleteFood Controller
+2021-08-11 21:51:06 INFO  MenuUtil:31 - In deleteFood Util
+2021-08-11 21:51:06 DEBUG MenuServiceImpl:35 - Inside 'DeleteFoodItem ServiceImpl'
+2021-08-11 21:51:06 INFO  MenuDaoImpl:104 - Inside deleteFood-MenuDaoImpl..
+2021-08-11 21:51:06 INFO  MenuDaoImpl:45 - Inside CheckCourseID
+2021-08-11 21:51:06 WARN  IDNotExistException:11 - Inside Custom Exception of UPDATE!!!!
+2021-08-11 21:51:06 INFO  MenuDaoImpl:116 - Food Detail is deleted...
+2021-08-11 21:51:06 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:51:06 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:51:06 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:51:06 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:51:06 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:51:06 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:55:32 INFO  MenuClient:22 - In main
+2021-08-11 21:55:32 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:55:32 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:55:32 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:55:32 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:55:32 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:55:32 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:56:26 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 21:56:26 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 21:56:26 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 21:56:26 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 21:56:27 INFO  MenuDaoImpl:252 - Food ID:100
+2021-08-11 21:56:27 INFO  MenuDaoImpl:253 - Food Name:shawarma
+2021-08-11 21:56:27 INFO  MenuDaoImpl:254 - Food Type:meatt
+2021-08-11 21:56:27 INFO  MenuDaoImpl:255 - Food Price:1000
+2021-08-11 21:56:27 INFO  MenuDaoImpl:252 - Food ID:101
+2021-08-11 21:56:27 INFO  MenuDaoImpl:253 - Food Name:Milk
+2021-08-11 21:56:27 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:56:27 INFO  MenuDaoImpl:255 - Food Price:75
+2021-08-11 21:56:27 INFO  MenuDaoImpl:252 - Food ID:102
+2021-08-11 21:56:27 INFO  MenuDaoImpl:253 - Food Name:pani
+2021-08-11 21:56:27 INFO  MenuDaoImpl:254 - Food Type:vegg
+2021-08-11 21:56:27 INFO  MenuDaoImpl:255 - Food Price:50
+2021-08-11 21:56:27 INFO  MenuDaoImpl:252 - Food ID:103
+2021-08-11 21:56:27 INFO  MenuDaoImpl:253 - Food Name:icecream
+2021-08-11 21:56:27 INFO  MenuDaoImpl:254 - Food Type:non-veg
+2021-08-11 21:56:27 INFO  MenuDaoImpl:255 - Food Price:100
+2021-08-11 21:56:27 INFO  MenuDaoImpl:252 - Food ID:104
+2021-08-11 21:56:27 INFO  MenuDaoImpl:253 - Food Name:Paneer Butter Masala
+2021-08-11 21:56:27 INFO  MenuDaoImpl:254 - Food Type:veg
+2021-08-11 21:56:27 INFO  MenuDaoImpl:255 - Food Price:150
+2021-08-11 21:56:27 INFO  MenuDaoImpl:259 - Food Details are displayed...
+2021-08-11 21:56:27 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:56:27 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:56:27 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:56:27 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:56:27 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:56:27 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:57:00 INFO  MenuClient:22 - In main
+2021-08-11 21:57:00 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:57:00 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:57:00 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:57:00 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:57:00 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:57:00 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:57:18 INFO  MenuClient:22 - In main
+2021-08-11 21:57:18 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:57:18 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:57:18 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:57:18 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:57:18 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:57:18 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:57:21 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 21:57:21 INFO  MenuClient:118 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 21:57:21 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:57:21 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:57:21 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:57:21 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:57:21 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:57:21 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:57:48 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 21:57:48 INFO  MenuClient:118 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 21:57:48 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:57:48 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:57:48 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:57:48 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:57:48 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:57:48 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:57:52 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 21:57:52 INFO  MenuClient:118 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 21:57:52 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:57:52 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:57:52 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:57:52 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:57:52 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:57:52 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:58:48 INFO  MenuClient:22 - In main
+2021-08-11 21:58:48 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:58:48 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:58:48 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:58:48 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:58:48 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:58:48 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:58:55 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 21:58:55 INFO  MenuClient:118 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 21:58:55 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:58:55 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:58:55 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:58:55 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:58:55 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:58:55 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 21:59:00 INFO  MenuClient:88 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-11 21:59:00 INFO  MenuController:42 - In updateFood Controller
+2021-08-11 21:59:00 INFO  MenuUtil:38 - In updateFood Util
+2021-08-11 21:59:00 DEBUG MenuServiceImpl:43 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-11 21:59:00 INFO  MenuDaoImpl:132 - Enter the Food ID
+2021-08-11 21:59:05 INFO  MenuDaoImpl:46 - Inside CheckCourseID
+2021-08-11 21:59:06 INFO  IDNotExistException:11 - Inside ID not exist Exception
+2021-08-11 21:59:06 INFO  MenuDaoImpl:242 - com.rms.exception.IDNotExistException: ID Not Found in Db...
+2021-08-11 21:59:06 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 21:59:06 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 21:59:06 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 21:59:06 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 21:59:06 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 21:59:06 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:00:45 INFO  MenuClient:88 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-11 22:00:45 INFO  MenuController:42 - In updateFood Controller
+2021-08-11 22:00:45 INFO  MenuUtil:38 - In updateFood Util
+2021-08-11 22:00:45 DEBUG MenuServiceImpl:43 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-11 22:00:45 INFO  MenuDaoImpl:132 - Enter the Food ID
+2021-08-11 22:00:46 INFO  MenuDaoImpl:46 - Inside CheckCourseID
+2021-08-11 22:00:46 INFO  MenuDaoImpl:142 - Fields  -  Update Status Code
+2021-08-11 22:00:46 INFO  MenuDaoImpl:143 - Food Name    - 1
+2021-08-11 22:00:46 INFO  MenuDaoImpl:144 - Food Type    - 2
+2021-08-11 22:00:46 INFO  MenuDaoImpl:145 - Food Price   - 3
+2021-08-11 22:00:46 INFO  MenuDaoImpl:147 - Enter the update status code to update which details
+2021-08-11 22:00:50 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 22:00:50 INFO  MenuDaoImpl:232 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 22:00:50 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:00:50 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:00:50 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:00:50 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:00:50 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:00:50 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:01:01 INFO  MenuClient:88 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-11 22:01:01 INFO  MenuController:42 - In updateFood Controller
+2021-08-11 22:01:01 INFO  MenuUtil:38 - In updateFood Util
+2021-08-11 22:01:01 DEBUG MenuServiceImpl:43 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-11 22:01:01 INFO  MenuDaoImpl:132 - Enter the Food ID
+2021-08-11 22:01:03 INFO  MenuDaoImpl:46 - Inside CheckCourseID
+2021-08-11 22:01:03 INFO  MenuDaoImpl:142 - Fields  -  Update Status Code
+2021-08-11 22:01:03 INFO  MenuDaoImpl:143 - Food Name    - 1
+2021-08-11 22:01:03 INFO  MenuDaoImpl:144 - Food Type    - 2
+2021-08-11 22:01:03 INFO  MenuDaoImpl:145 - Food Price   - 3
+2021-08-11 22:01:03 INFO  MenuDaoImpl:147 - Enter the update status code to update which details
+2021-08-11 22:01:05 WARN  InvalidSwitchException:10 - Exception-Invalid Switch Case Operation..
+2021-08-11 22:01:05 INFO  MenuDaoImpl:232 - com.rms.exception.InvalidSwitchException: Invalid Switch Case..
+2021-08-11 22:01:05 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:01:05 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:01:05 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:01:05 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:01:05 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:01:05 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:01:17 INFO  MenuClient:72 - OPERATION-DELETION OF MENU ITEMS
+2021-08-11 22:01:17 INFO  MenuClient:74 - Enter the food item number
+2021-08-11 22:12:56 INFO  MenuClient:22 - In main
+2021-08-11 22:12:56 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:12:56 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:12:56 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:12:56 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:12:56 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:12:56 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:14:15 INFO  MenuClient:22 - In main
+2021-08-11 22:14:15 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:14:15 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:14:15 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:14:15 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:14:15 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:14:15 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:14:18 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:14:18 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:14:18 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:14:18 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:14:19 INFO  MenuDaoImpl:259 - Food ID:100
+2021-08-11 22:14:19 INFO  MenuDaoImpl:260 - Food Name:shawarma
+2021-08-11 22:14:19 INFO  MenuDaoImpl:261 - Food Type:meatt
+2021-08-11 22:14:19 INFO  MenuDaoImpl:262 - Food Price:1000
+2021-08-11 22:14:19 INFO  MenuDaoImpl:259 - Food ID:101
+2021-08-11 22:14:19 INFO  MenuDaoImpl:260 - Food Name:Milk
+2021-08-11 22:14:19 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:14:19 INFO  MenuDaoImpl:262 - Food Price:75
+2021-08-11 22:14:19 INFO  MenuDaoImpl:259 - Food ID:102
+2021-08-11 22:14:19 INFO  MenuDaoImpl:260 - Food Name:pani
+2021-08-11 22:14:19 INFO  MenuDaoImpl:261 - Food Type:vegg
+2021-08-11 22:14:19 INFO  MenuDaoImpl:262 - Food Price:50
+2021-08-11 22:14:19 INFO  MenuDaoImpl:259 - Food ID:103
+2021-08-11 22:14:19 INFO  MenuDaoImpl:260 - Food Name:icecream
+2021-08-11 22:14:19 INFO  MenuDaoImpl:261 - Food Type:non-veg
+2021-08-11 22:14:19 INFO  MenuDaoImpl:262 - Food Price:100
+2021-08-11 22:14:19 INFO  MenuDaoImpl:259 - Food ID:104
+2021-08-11 22:14:19 INFO  MenuDaoImpl:260 - Food Name:Paneer Butter Masala
+2021-08-11 22:14:19 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:14:19 INFO  MenuDaoImpl:262 - Food Price:150
+2021-08-11 22:14:19 INFO  MenuDaoImpl:266 - Food Details are displayed...
+2021-08-11 22:14:19 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:14:19 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:14:19 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:14:19 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:14:19 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:14:19 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:14:22 INFO  MenuClient:45 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:14:22 INFO  MenuClient:47 - Enter the food item number
+2021-08-11 22:14:30 INFO  MenuClient:52 - Enter the food item name
+2021-08-11 22:14:35 INFO  MenuClient:56 - Enter the food item type
+2021-08-11 22:14:39 INFO  MenuClient:60 - Enter the food item price
+2021-08-11 22:14:41 INFO  MenuController:19 - In addFood Controller
+2021-08-11 22:14:41 INFO  MenuUtil:23 - In addFood Util
+2021-08-11 22:14:41 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
+2021-08-11 22:14:41 DEBUG MenuDaoImpl:69 - Inside addFood-MenuDaoImpl..
+2021-08-11 22:14:41 INFO  MenuDaoImpl:24 - Inside CheckDuplicateID
+2021-08-11 22:14:41 INFO  MenuDaoImpl:91 - Food Details are inserted..
+2021-08-11 22:14:41 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:14:41 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:14:41 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:14:41 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:14:41 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:14:41 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:14:49 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:14:49 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:14:49 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:14:49 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:100
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:shawarma
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:meatt
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:1000
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:101
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:Milk
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:75
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:102
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:pani
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:vegg
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:50
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:103
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:icecream
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:non-veg
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:100
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:104
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:Paneer Butter Masala
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:150
+2021-08-11 22:14:49 INFO  MenuDaoImpl:259 - Food ID:2500
+2021-08-11 22:14:49 INFO  MenuDaoImpl:260 - Food Name:p
+2021-08-11 22:14:49 INFO  MenuDaoImpl:261 - Food Type:12
+2021-08-11 22:14:49 INFO  MenuDaoImpl:262 - Food Price:412
+2021-08-11 22:14:49 INFO  MenuDaoImpl:266 - Food Details are displayed...
+2021-08-11 22:14:49 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:14:49 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:14:49 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:14:49 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:14:49 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:14:49 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:18:32 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:18:32 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:18:32 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:18:32 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:100
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:shawarma
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:meatt
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:1000
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:101
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:Milk
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:75
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:102
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:pani
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:vegg
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:50
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:103
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:icecream
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:non-veg
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:100
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:104
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:Paneer Butter Masala
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:150
+2021-08-11 22:18:32 INFO  MenuDaoImpl:259 - Food ID:2500
+2021-08-11 22:18:32 INFO  MenuDaoImpl:260 - Food Name:p
+2021-08-11 22:18:32 INFO  MenuDaoImpl:261 - Food Type:12
+2021-08-11 22:18:32 INFO  MenuDaoImpl:262 - Food Price:412
+2021-08-11 22:18:32 INFO  MenuDaoImpl:266 - Food Details are displayed...
+2021-08-11 22:18:32 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:18:32 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:18:32 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:18:32 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:18:32 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:18:32 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:18:36 INFO  MenuClient:72 - OPERATION-DELETION OF MENU ITEMS
+2021-08-11 22:18:36 INFO  MenuClient:74 - Enter the food item number
+2021-08-11 22:18:38 INFO  MenuController:31 - In deleteFood Controller
+2021-08-11 22:18:38 INFO  MenuUtil:31 - In deleteFood Util
+2021-08-11 22:18:38 DEBUG MenuServiceImpl:35 - Inside 'DeleteFoodItem ServiceImpl'
+2021-08-11 22:18:38 INFO  MenuDaoImpl:105 - Inside deleteFood-MenuDaoImpl..
+2021-08-11 22:18:38 INFO  MenuDaoImpl:46 - Inside CheckFoodID
+2021-08-11 22:18:38 INFO  MenuDaoImpl:117 - Food Detail is deleted...
+2021-08-11 22:18:38 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:18:38 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:18:38 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:18:38 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:18:38 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:18:38 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:19:09 INFO  MenuClient:101 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:19:09 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:19:09 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:19:09 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:19:09 INFO  MenuDaoImpl:259 - Food ID:100
+2021-08-11 22:19:09 INFO  MenuDaoImpl:260 - Food Name:shawarma
+2021-08-11 22:19:09 INFO  MenuDaoImpl:261 - Food Type:meatt
+2021-08-11 22:19:09 INFO  MenuDaoImpl:262 - Food Price:1000
+2021-08-11 22:19:09 INFO  MenuDaoImpl:259 - Food ID:101
+2021-08-11 22:19:09 INFO  MenuDaoImpl:260 - Food Name:Milk
+2021-08-11 22:19:09 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:19:09 INFO  MenuDaoImpl:262 - Food Price:75
+2021-08-11 22:19:09 INFO  MenuDaoImpl:259 - Food ID:102
+2021-08-11 22:19:09 INFO  MenuDaoImpl:260 - Food Name:pani
+2021-08-11 22:19:09 INFO  MenuDaoImpl:261 - Food Type:vegg
+2021-08-11 22:19:09 INFO  MenuDaoImpl:262 - Food Price:50
+2021-08-11 22:19:09 INFO  MenuDaoImpl:259 - Food ID:103
+2021-08-11 22:19:09 INFO  MenuDaoImpl:260 - Food Name:icecream
+2021-08-11 22:19:09 INFO  MenuDaoImpl:261 - Food Type:non-veg
+2021-08-11 22:19:09 INFO  MenuDaoImpl:262 - Food Price:100
+2021-08-11 22:19:09 INFO  MenuDaoImpl:259 - Food ID:104
+2021-08-11 22:19:09 INFO  MenuDaoImpl:260 - Food Name:Paneer Butter Masala
+2021-08-11 22:19:09 INFO  MenuDaoImpl:261 - Food Type:veg
+2021-08-11 22:19:09 INFO  MenuDaoImpl:262 - Food Price:150
+2021-08-11 22:19:09 INFO  MenuDaoImpl:266 - Food Details are displayed...
+2021-08-11 22:19:09 INFO  MenuClient:31 - ======Menu Designing - ADMIN==============
+2021-08-11 22:19:09 INFO  MenuClient:33 - 1.Add Food Items To Menu
+2021-08-11 22:19:09 INFO  MenuClient:34 - 2.Remove Food Items From Menu
+2021-08-11 22:19:09 INFO  MenuClient:35 - 3.Update Food Items In Menu
+2021-08-11 22:19:09 INFO  MenuClient:36 - 4.Display Food Items of Menu
+2021-08-11 22:19:09 INFO  MenuClient:37 - 5.Exit The Application
+2021-08-11 22:19:28 INFO  MenuClient:45 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:19:28 INFO  MenuClient:47 - Enter the food item number
+2021-08-11 22:19:34 INFO  MenuClient:52 - Enter the food item name
+2021-08-11 22:19:58 INFO  MenuClient:56 - Enter the food item type
+2021-08-11 22:19:59 INFO  MenuClient:60 - Enter the food item price
+2021-08-11 22:22:22 INFO  MenuClient:23 - In main
+2021-08-11 22:22:22 INFO  MenuClient:32 - ======Menu Designing - ADMIN==============
+2021-08-11 22:22:22 INFO  MenuClient:34 - 1.Add Food Items To Menu
+2021-08-11 22:22:22 INFO  MenuClient:35 - 2.Remove Food Items From Menu
+2021-08-11 22:22:22 INFO  MenuClient:36 - 3.Update Food Items In Menu
+2021-08-11 22:22:22 INFO  MenuClient:37 - 4.Display Food Items of Menu
+2021-08-11 22:22:22 INFO  MenuClient:38 - 5.Exit The Application
+2021-08-11 22:22:27 INFO  MenuClient:46 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:22:27 INFO  MenuClient:48 - Enter the food item number
+2021-08-11 22:22:31 INFO  MenuClient:53 - Food Items Id between 100 and 150
+2021-08-11 22:22:31 INFO  MenuClient:61 - Enter the food item name
+2021-08-11 22:22:45 INFO  MenuClient:65 - Enter the food item type
+2021-08-11 22:24:16 INFO  MenuClient:23 - In main
+2021-08-11 22:24:16 INFO  MenuClient:32 - ======Menu Designing - ADMIN==============
+2021-08-11 22:24:16 INFO  MenuClient:34 - 1.Add Food Items To Menu
+2021-08-11 22:24:16 INFO  MenuClient:35 - 2.Remove Food Items From Menu
+2021-08-11 22:24:16 INFO  MenuClient:36 - 3.Update Food Items In Menu
+2021-08-11 22:24:16 INFO  MenuClient:37 - 4.Display Food Items of Menu
+2021-08-11 22:24:16 INFO  MenuClient:38 - 5.Exit The Application
+2021-08-11 22:24:21 INFO  MenuClient:46 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:24:21 INFO  MenuClient:48 - Enter the food item number
+2021-08-11 22:24:21 INFO  MenuClient:50 - Food Items Id between 100 and 150
+2021-08-11 22:24:26 INFO  MenuClient:62 - Enter the food item name
+2021-08-11 22:26:09 INFO  MenuClient:23 - In main
+2021-08-11 22:26:09 INFO  MenuClient:32 - ======Menu Designing - ADMIN==============
+2021-08-11 22:26:09 INFO  MenuClient:34 - 1.Add Food Items To Menu
+2021-08-11 22:26:09 INFO  MenuClient:35 - 2.Remove Food Items From Menu
+2021-08-11 22:26:09 INFO  MenuClient:36 - 3.Update Food Items In Menu
+2021-08-11 22:26:09 INFO  MenuClient:37 - 4.Display Food Items of Menu
+2021-08-11 22:26:09 INFO  MenuClient:38 - 5.Exit The Application
+2021-08-11 22:26:15 INFO  MenuClient:46 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:26:15 INFO  MenuClient:48 - Enter the food item number
+2021-08-11 22:26:15 INFO  MenuClient:50 - Food Items Id between 100 and 150
+2021-08-11 22:26:18 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-11 22:28:47 INFO  MenuClient:23 - In main
+2021-08-11 22:28:47 INFO  MenuClient:32 - ======Menu Designing - ADMIN==============
+2021-08-11 22:28:47 INFO  MenuClient:34 - 1.Add Food Items To Menu
+2021-08-11 22:28:47 INFO  MenuClient:35 - 2.Remove Food Items From Menu
+2021-08-11 22:28:47 INFO  MenuClient:36 - 3.Update Food Items In Menu
+2021-08-11 22:28:47 INFO  MenuClient:37 - 4.Display Food Items of Menu
+2021-08-11 22:28:47 INFO  MenuClient:38 - 5.Exit The Application
+2021-08-11 22:28:49 INFO  MenuClient:46 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:28:49 INFO  MenuClient:48 - Enter the food item number
+2021-08-11 22:28:49 INFO  MenuClient:50 - Food Items Id between 100 and 150
+2021-08-11 22:28:51 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-11 22:28:51 INFO  MenuClient:60 - com.rms.exception.InvalidIDException: Enter Valid ID
+2021-08-11 22:28:51 INFO  MenuClient:66 - Enter the food item name
+2021-08-11 22:36:32 INFO  MenuClient:24 - In main
+2021-08-11 22:36:32 INFO  MenuClient:33 - ======Menu Designing - ADMIN==============
+2021-08-11 22:36:32 INFO  MenuClient:35 - 1.Add Food Items To Menu
+2021-08-11 22:36:32 INFO  MenuClient:36 - 2.Remove Food Items From Menu
+2021-08-11 22:36:32 INFO  MenuClient:37 - 3.Update Food Items In Menu
+2021-08-11 22:36:32 INFO  MenuClient:38 - 4.Display Food Items of Menu
+2021-08-11 22:36:32 INFO  MenuClient:39 - 5.Exit The Application
+2021-08-11 22:36:36 INFO  MenuClient:47 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:36:36 INFO  MenuClient:49 - Enter the food item number
+2021-08-11 22:36:36 INFO  MenuClient:51 - Food Items Id between 100 and 150
+2021-08-11 22:36:45 INFO  MenuClient:60 - java.util.InputMismatchException
+2021-08-11 22:36:45 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-11 22:37:51 INFO  MenuClient:20 - In main
+2021-08-11 22:37:51 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:37:51 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:37:51 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:37:51 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:37:51 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:37:51 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:37:56 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:37:56 INFO  MenuClient:45 - Enter the food item number
+2021-08-11 22:37:56 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-11 22:39:41 INFO  MenuClient:20 - In main
+2021-08-11 22:39:41 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:39:41 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:39:41 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:39:41 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:39:41 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:39:41 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:40:45 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:40:45 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:40:45 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:40:45 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:40:46 INFO  MenuDaoImpl:261 - Food ID:100
+2021-08-11 22:40:46 INFO  MenuDaoImpl:262 - Food Name:shawarma
+2021-08-11 22:40:46 INFO  MenuDaoImpl:263 - Food Type:meatt
+2021-08-11 22:40:46 INFO  MenuDaoImpl:264 - Food Price:1000
+2021-08-11 22:40:46 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-11 22:40:46 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-11 22:40:46 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:40:46 INFO  MenuDaoImpl:264 - Food Price:75
+2021-08-11 22:40:46 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-11 22:40:46 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-11 22:40:46 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-11 22:40:46 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-11 22:40:46 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-11 22:40:46 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-11 22:40:46 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-11 22:40:46 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:40:46 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-11 22:40:46 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-11 22:40:46 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:40:46 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-11 22:40:46 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-11 22:40:46 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:40:46 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:40:46 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:40:46 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:40:46 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:40:46 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:41:58 INFO  MenuClient:79 - OPERATION-DELETION OF MENU ITEMS
+2021-08-11 22:41:58 INFO  MenuClient:81 - Enter the food item number
+2021-08-11 22:41:58 INFO  MenuClient:83 - Food Items Id between 100 and 150
+2021-08-11 22:42:06 INFO  MenuController:31 - In deleteFood Controller
+2021-08-11 22:42:06 INFO  MenuUtil:31 - In deleteFood Util
+2021-08-11 22:42:06 DEBUG MenuServiceImpl:35 - Inside 'DeleteFoodItem ServiceImpl'
+2021-08-11 22:42:06 INFO  MenuDaoImpl:105 - Inside deleteFood-MenuDaoImpl..
+2021-08-11 22:42:06 INFO  MenuDaoImpl:46 - Inside CheckFoodID
+2021-08-11 22:42:06 INFO  MenuDaoImpl:117 - Food Detail is deleted...
+2021-08-11 22:42:06 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:42:06 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:42:06 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:42:06 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:42:06 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:42:06 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:42:51 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:42:51 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:42:51 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:42:51 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:42:51 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-11 22:42:51 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-11 22:42:51 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:42:51 INFO  MenuDaoImpl:264 - Food Price:75
+2021-08-11 22:42:51 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-11 22:42:51 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-11 22:42:51 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-11 22:42:51 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-11 22:42:51 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-11 22:42:51 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-11 22:42:51 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-11 22:42:51 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:42:51 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-11 22:42:51 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-11 22:42:51 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:42:51 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-11 22:42:51 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-11 22:42:51 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:42:51 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:42:51 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:42:51 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:42:51 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:42:51 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:42:55 INFO  MenuClient:103 - OPERATION-UPDATION OF MENU ITEMS
+2021-08-11 22:42:55 INFO  MenuController:42 - In updateFood Controller
+2021-08-11 22:42:55 INFO  MenuUtil:38 - In updateFood Util
+2021-08-11 22:42:55 DEBUG MenuServiceImpl:43 - Inside 'UpdateFoodItem ServiceImpl'
+2021-08-11 22:42:55 INFO  MenuDaoImpl:132 - Enter the Food ID
+2021-08-11 22:43:05 INFO  MenuDaoImpl:135 - Food Items Id between 100 and 150
+2021-08-11 22:43:05 INFO  MenuDaoImpl:46 - Inside CheckFoodID
+2021-08-11 22:43:05 INFO  MenuDaoImpl:144 - Fields  -  Update Status Code
+2021-08-11 22:43:05 INFO  MenuDaoImpl:145 - Food Name    - 1
+2021-08-11 22:43:05 INFO  MenuDaoImpl:146 - Food Type    - 2
+2021-08-11 22:43:05 INFO  MenuDaoImpl:147 - Food Price   - 3
+2021-08-11 22:43:05 INFO  MenuDaoImpl:149 - Enter the update status code to update which details
+2021-08-11 22:43:09 INFO  MenuDaoImpl:211 - Enter the Food Price
+2021-08-11 22:43:11 INFO  MenuDaoImpl:222 - Food Price is updated...
+2021-08-11 22:43:11 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:43:11 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:43:11 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:43:11 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:43:11 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:43:11 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:43:47 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:43:47 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:43:47 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:43:47 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:43:47 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-11 22:43:47 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-11 22:43:47 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:43:47 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:43:47 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-11 22:43:47 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-11 22:43:47 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-11 22:43:47 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-11 22:43:47 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-11 22:43:47 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-11 22:43:47 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-11 22:43:47 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:43:47 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-11 22:43:47 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-11 22:43:47 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:43:47 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-11 22:43:47 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-11 22:43:47 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:43:47 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:43:47 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:43:47 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:43:47 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:43:47 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:43:53 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-11 22:43:53 INFO  MenuClient:45 - Enter the food item number
+2021-08-11 22:43:53 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-11 22:43:58 INFO  MenuClient:59 - Enter the food item name
+2021-08-11 22:44:05 INFO  MenuClient:63 - Enter the food item type
+2021-08-11 22:44:16 INFO  MenuClient:67 - Enter the food item price
+2021-08-11 22:44:20 INFO  MenuController:19 - In addFood Controller
+2021-08-11 22:44:20 INFO  MenuUtil:23 - In addFood Util
+2021-08-11 22:44:20 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
+2021-08-11 22:44:20 DEBUG MenuDaoImpl:69 - Inside addFood-MenuDaoImpl..
+2021-08-11 22:44:20 INFO  MenuDaoImpl:24 - Inside CheckDuplicateID
+2021-08-11 22:44:20 INFO  MenuDaoImpl:91 - Food Details are inserted..
+2021-08-11 22:44:20 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:44:20 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:44:20 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:44:20 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:44:20 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:44:20 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-11 22:45:17 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-11 22:45:17 INFO  MenuController:53 - In displayFood Controller
+2021-08-11 22:45:17 INFO  MenuUtil:45 - In displayFood Util
+2021-08-11 22:45:17 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-11 22:45:17 INFO  MenuDaoImpl:261 - Food ID:100
+2021-08-11 22:45:17 INFO  MenuDaoImpl:262 - Food Name:Tea
+2021-08-11 22:45:17 INFO  MenuDaoImpl:263 - Food Type:dairy
+2021-08-11 22:45:17 INFO  MenuDaoImpl:264 - Food Price:15
+2021-08-11 22:45:17 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-11 22:45:17 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-11 22:45:17 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:45:17 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:45:17 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-11 22:45:17 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-11 22:45:17 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-11 22:45:17 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-11 22:45:17 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-11 22:45:17 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-11 22:45:17 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-11 22:45:17 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-11 22:45:17 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-11 22:45:17 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-11 22:45:17 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-11 22:45:17 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-11 22:45:17 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-11 22:45:17 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-11 22:45:17 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-11 22:45:17 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-11 22:45:17 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-11 22:45:17 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-11 22:45:17 INFO  MenuClient:35 - 5.Exit The Application

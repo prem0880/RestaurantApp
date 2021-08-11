@@ -22,7 +22,7 @@ public class MenuController {
 			menuutil.addFoodItem(menudto);
 		} catch (InvalidIDException e) {
 
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 	}
@@ -33,7 +33,7 @@ public class MenuController {
 		try {
 			menuutil.deleteFoodItem(menudto);
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 	}
@@ -44,7 +44,7 @@ public class MenuController {
 		try {
 			menuutil.updateFoodItem(menudto);
 		} catch (IDNotExistException e) {
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 	}
@@ -55,7 +55,7 @@ public class MenuController {
 		try {
 			menuutil.displayFoodItem();
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 	}

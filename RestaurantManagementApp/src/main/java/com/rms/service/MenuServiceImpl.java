@@ -16,12 +16,16 @@ public class MenuServiceImpl implements MenuService {
 	MenuDao menudao = new MenuDaoImpl();
 	
 	@Override
-	public void addFoodItem(MenuDto menudto) throws InvalidIDException {
+	public void addFoodItem(MenuDto menudto) {
 
 		logger.debug("Inside 'AddFoodItem ServiceImp'");
 
 		
-		menudao.addFoodItem(menudto);
+		try {
+			menudao.addFoodItem(menudto);
+		} catch (InvalidIDException e) {
+			logger.info(e);
+		}
 
 	}
 
@@ -35,7 +39,7 @@ public class MenuServiceImpl implements MenuService {
 	}
 
 	@Override
-	public void updateFoodItem(MenuDto menudto) throws IDNotExistException {
+	public void updateFoodItem(MenuDto menudto) {
 		logger.debug("Inside 'UpdateFoodItem ServiceImpl'");
 		
 		menudao.updateFoodItem(menudto);

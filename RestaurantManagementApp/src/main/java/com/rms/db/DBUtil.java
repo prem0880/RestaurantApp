@@ -8,7 +8,7 @@ import java.util.Properties;
 public class DBUtil {
 	public static Connection getConnection() throws Exception {
 
-		FileInputStream fileStream = new FileInputStream("C:\\Users\\PremchanderS\\Documents\\RestaurantAppGit\\RestaurantManagementApp\\jdbc.properties");
+		FileInputStream fileStream = new FileInputStream("C:\\Users\\PremchanderS\\Documents\\git\\RestaurantAppGit\\RestaurantManagementApp\\jdbc.properties");
 		Properties properties = new Properties();
 		properties.load(fileStream);
 		String url = properties.getProperty("url");

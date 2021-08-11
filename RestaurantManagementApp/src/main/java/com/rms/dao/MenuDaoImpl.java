@@ -12,6 +12,7 @@ import com.rms.dto.MenuDto;
 import com.rms.exception.DuplicateIDException;
 import com.rms.exception.IDNotExistException;
 import com.rms.exception.InvalidIDException;
+import com.rms.exception.InvalidSwitchException;
 
 public class MenuDaoImpl implements MenuDao {
 
@@ -33,7 +34,7 @@ public class MenuDaoImpl implements MenuDao {
 			}
 
 		} catch (Exception e) {
-			
+			logger.info(e);	
 		}
 		if(flag == false)
 		{
@@ -42,7 +43,7 @@ public class MenuDaoImpl implements MenuDao {
 	}
 
 	public void CheckFoodID(Integer id) throws IDNotExistException {
-		logger.info("Inside CheckCourseID");
+		logger.info("Inside CheckFoodID");
 		Boolean flag = false;
 		try {
 			Connection con = DBUtil.getConnection();
@@ -54,7 +55,7 @@ public class MenuDaoImpl implements MenuDao {
 			}
 
 		} catch (Exception e) {
-			
+			logger.info(e);
 		}
 		if(flag == false)
 		{
@@ -75,7 +76,7 @@ public class MenuDaoImpl implements MenuDao {
 		try {
 			CheckDuplicateID(menudto.getId());
 		} catch (DuplicateIDException e1) {
-			e1.printStackTrace();
+			logger.info(e1);
 		}
 		
 		try {
@@ -91,7 +92,7 @@ public class MenuDaoImpl implements MenuDao {
 			
 		} catch (Exception e) {
 
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 		
@@ -116,7 +117,7 @@ public class MenuDaoImpl implements MenuDao {
 			logger.info("Food Detail is deleted...");
 
 		} catch (Exception e) {
-			e.printStackTrace();
+			logger.info(e);
 		}
 
 	}
@@ -128,22 +129,24 @@ public class MenuDaoImpl implements MenuDao {
 	
 		try {
 			
-			System.out.println("Enter the Food ID");
+			logger.info("Enter the Food ID");
 			int foodid = sc.nextInt();
 			
-			if(foodid<100)
+			logger.info("Food Items Id between 100 and 150");
+			
+			if(foodid<100 || foodid>=150)
 			{
 				throw new InvalidIDException("Enter Valid ID");
 			}
 			
 			CheckFoodID(foodid);
 			
-			System.out.println("\n"+"Fields  -  Update Status Code");
-			System.out.println("Food Name    - 1");
-			System.out.println("Food Type    - 2");
-			System.out.println("Food Price   - 3");
+			logger.info("Fields  -  Update Status Code");
+			logger.info("Food Name    - 1");
+			logger.info("Food Type    - 2");
+			logger.info("Food Price   - 3");
 			
-			System.out.println("Enter the update status code to update which details");
+			logger.info("Enter the update status code to update which details");
 			
 			int statuscode=sc.nextInt();
 			
@@ -155,11 +158,9 @@ public class MenuDaoImpl implements MenuDao {
 					
 					sc.nextLine();
 					
-					System.out.println("Enter the Food Name");
+					logger.info("Enter the Food Name");
 					String foodname = sc.nextLine();
 					
-					System.out.println("here");
-										
 					PreparedStatement pst=con.prepareStatement("update Menu set FoodName=? where FoodId=?");
 					
 					pst.setString(1, foodname);
@@ -173,7 +174,7 @@ public class MenuDaoImpl implements MenuDao {
 				}
 				catch(Exception e)
 				{
-						e.printStackTrace();
+					logger.info(e);
 				}
 			}		
 			case 2:{
@@ -181,7 +182,7 @@ public class MenuDaoImpl implements MenuDao {
 					
 					sc.nextLine();
 					
-					System.out.println("Enter the Food Type");
+					logger.info("Enter the Food Type");
 					
 					
 					String foodtype = sc.nextLine();
@@ -197,7 +198,7 @@ public class MenuDaoImpl implements MenuDao {
 				}
 				catch(Exception e)
 				{
-					e.printStackTrace();
+					logger.info(e);
 				}
 				break;
 				}
@@ -207,7 +208,7 @@ public class MenuDaoImpl implements MenuDao {
 					
 					sc.nextLine();
 					
-					System.out.println("Enter the Food Price");
+					logger.info("Enter the Food Price");
 					int foodprice = sc.nextInt();
 					
 
@@ -222,10 +223,16 @@ public class MenuDaoImpl implements MenuDao {
 				}
 				catch(Exception e)
 				{
-					e.printStackTrace();
+					logger.info(e);
 				}
 				break;
 				}
+			default: {
+				try {
+				throw new InvalidSwitchException("Invalid Switch Case..");
+				}
+				catch(Exception e) {logger.info(e);}
+		       }
 				
 			
 				}
@@ -234,7 +241,7 @@ public class MenuDaoImpl implements MenuDao {
 			}
 			
 			catch (Exception e) {
-			e.printStackTrace();
+				logger.info(e);
 		}
 
 		
@@ -251,10 +258,10 @@ public class MenuDaoImpl implements MenuDao {
 			ResultSet rs = pst.executeQuery();
 			while (rs.next()) {
 				
-				System.out.println("\n"+"Food ID:"+rs.getInt(1));
-				System.out.println("Food Name:"+rs.getString(2));
-				System.out.println("Food Type:"+rs.getString(3));
-				System.out.println("Food Price:"+rs.getInt(4)+"\n");
+				logger.info("Food ID:"+rs.getInt(1));
+				logger.info("Food Name:"+rs.getString(2));
+				logger.info("Food Type:"+rs.getString(3));
+				logger.info("Food Price:"+rs.getInt(4));
 				
 				
 			}
@@ -262,7 +269,7 @@ public class MenuDaoImpl implements MenuDao {
 		}
 		catch(Exception e)
 		{
-			e.printStackTrace();
+			logger.info(e);
 		}
 		
 	}
