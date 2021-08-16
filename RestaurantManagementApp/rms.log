@@ -673,3 +673,167 @@
 2021-08-11 22:45:17 INFO  MenuClient:33 - 3.Update Food Items In Menu
 2021-08-11 22:45:17 INFO  MenuClient:34 - 4.Display Food Items of Menu
 2021-08-11 22:45:17 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 17:40:59 INFO  MenuClient:20 - In main
+2021-08-12 17:40:59 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 17:40:59 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 17:40:59 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 17:40:59 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 17:40:59 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 17:40:59 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 17:41:08 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-12 17:41:08 INFO  MenuController:53 - In displayFood Controller
+2021-08-12 17:41:08 INFO  MenuUtil:45 - In displayFood Util
+2021-08-12 17:41:08 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-12 17:41:10 INFO  MenuDaoImpl:261 - Food ID:100
+2021-08-12 17:41:10 INFO  MenuDaoImpl:262 - Food Name:Tea
+2021-08-12 17:41:10 INFO  MenuDaoImpl:263 - Food Type:dairy
+2021-08-12 17:41:10 INFO  MenuDaoImpl:264 - Food Price:15
+2021-08-12 17:41:10 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-12 17:41:10 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-12 17:41:10 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-12 17:41:10 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-12 17:41:10 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-12 17:41:10 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-12 17:41:10 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-12 17:41:10 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-12 17:41:10 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-12 17:41:10 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-12 17:41:10 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-12 17:41:10 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-12 17:41:10 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-12 17:41:10 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-12 17:41:10 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-12 17:41:10 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-12 17:41:10 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-12 17:41:10 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 17:41:10 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 17:41:10 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 17:41:10 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 17:41:10 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 17:41:10 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 17:41:19 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 17:41:19 INFO  MenuClient:45 - Enter the food item number
+2021-08-12 17:41:19 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-12 17:41:24 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-12 17:41:45 INFO  MenuClient:20 - In main
+2021-08-12 17:41:45 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 17:41:45 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 17:41:45 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 17:41:45 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 17:41:45 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 17:41:45 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 17:41:47 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 17:41:47 INFO  MenuClient:45 - Enter the food item number
+2021-08-12 17:41:47 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-12 17:41:50 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-12 19:11:06 INFO  MenuClient:20 - In main
+2021-08-12 19:11:06 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:11:06 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:11:06 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:11:06 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:11:06 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:11:06 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:11:26 INFO  MenuClient:115 - OPERATION-DISPLAYING OF MENU ITEMS
+2021-08-12 19:11:26 INFO  MenuController:53 - In displayFood Controller
+2021-08-12 19:11:26 INFO  MenuUtil:45 - In displayFood Util
+2021-08-12 19:11:26 DEBUG MenuServiceImpl:51 - Inside 'DisplayFoodItem ServiceImpl'
+2021-08-12 19:11:28 INFO  MenuDaoImpl:261 - Food ID:100
+2021-08-12 19:11:28 INFO  MenuDaoImpl:262 - Food Name:Tea
+2021-08-12 19:11:28 INFO  MenuDaoImpl:263 - Food Type:dairy
+2021-08-12 19:11:28 INFO  MenuDaoImpl:264 - Food Price:15
+2021-08-12 19:11:28 INFO  MenuDaoImpl:261 - Food ID:101
+2021-08-12 19:11:28 INFO  MenuDaoImpl:262 - Food Name:Milk
+2021-08-12 19:11:28 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-12 19:11:28 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-12 19:11:28 INFO  MenuDaoImpl:261 - Food ID:102
+2021-08-12 19:11:28 INFO  MenuDaoImpl:262 - Food Name:pani
+2021-08-12 19:11:28 INFO  MenuDaoImpl:263 - Food Type:vegg
+2021-08-12 19:11:28 INFO  MenuDaoImpl:264 - Food Price:50
+2021-08-12 19:11:28 INFO  MenuDaoImpl:261 - Food ID:103
+2021-08-12 19:11:28 INFO  MenuDaoImpl:262 - Food Name:icecream
+2021-08-12 19:11:28 INFO  MenuDaoImpl:263 - Food Type:non-veg
+2021-08-12 19:11:28 INFO  MenuDaoImpl:264 - Food Price:100
+2021-08-12 19:11:28 INFO  MenuDaoImpl:261 - Food ID:104
+2021-08-12 19:11:28 INFO  MenuDaoImpl:262 - Food Name:Paneer Butter Masala
+2021-08-12 19:11:28 INFO  MenuDaoImpl:263 - Food Type:veg
+2021-08-12 19:11:28 INFO  MenuDaoImpl:264 - Food Price:150
+2021-08-12 19:11:28 INFO  MenuDaoImpl:268 - Food Details are displayed...
+2021-08-12 19:11:28 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:11:28 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:11:28 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:11:28 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:11:28 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:11:28 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:13:52 INFO  MenuClient:20 - In main
+2021-08-12 19:13:52 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:13:52 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:13:52 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:13:52 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:13:52 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:13:52 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:14:00 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 19:14:00 INFO  MenuClient:45 - Enter the food item number
+2021-08-12 19:14:00 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-12 19:15:02 INFO  MenuClient:59 - Enter the food item name
+2021-08-12 19:15:09 INFO  MenuClient:63 - Enter the food item type
+2021-08-12 19:15:29 INFO  MenuClient:67 - Enter the food item price
+2021-08-12 19:15:35 INFO  MenuController:19 - In addFood Controller
+2021-08-12 19:15:35 INFO  MenuUtil:23 - In addFood Util
+2021-08-12 19:15:35 DEBUG MenuServiceImpl:21 - Inside 'AddFoodItem ServiceImp'
+2021-08-12 19:15:35 DEBUG MenuDaoImpl:69 - Inside addFood-MenuDaoImpl..
+2021-08-12 19:15:35 INFO  MenuDaoImpl:24 - Inside CheckDuplicateID
+2021-08-12 19:15:37 INFO  MenuDaoImpl:91 - Food Details are inserted..
+2021-08-12 19:15:37 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:15:37 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:15:37 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:15:37 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:15:37 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:15:37 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:15:43 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 19:15:43 INFO  MenuClient:45 - Enter the food item number
+2021-08-12 19:15:43 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-12 19:15:48 WARN  InvalidIDException:11 - Inside Invalid Id Exception
+2021-08-12 19:15:55 INFO  MenuClient:20 - In main
+2021-08-12 19:15:55 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:15:55 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:15:55 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:15:55 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:15:55 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:15:55 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:15:57 INFO  MenuClient:43 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 19:15:57 INFO  MenuClient:45 - Enter the food item number
+2021-08-12 19:15:57 INFO  MenuClient:47 - Food Items Id between 100 and 150
+2021-08-12 19:15:59 INFO  MenuClient:59 - Enter the food item name
+2021-08-12 19:16:06 INFO  MenuClient:63 - Enter the food item type
+2021-08-12 19:16:08 INFO  MenuClient:67 - Enter the food item price
+2021-08-12 19:52:57 INFO  MenuClient:20 - In main
+2021-08-12 19:52:57 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-12 19:52:57 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-12 19:52:57 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-12 19:52:57 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-12 19:52:57 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-12 19:52:57 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-12 19:53:05 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-12 19:53:05 INFO  MenuClient:46 - Enter the food item number
+2021-08-12 19:53:05 INFO  MenuClient:48 - Food Items Id between 100 and 150
+2021-08-12 19:53:08 INFO  MenuClient:60 - Enter the food item name
+2021-08-12 19:53:11 INFO  MenuClient:64 - Enter the food item type
+2021-08-12 19:53:13 INFO  MenuClient:68 - Enter the food item price
+2021-08-15 12:44:16 INFO  MenuClient:20 - In main
+2021-08-15 12:44:16 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-15 12:44:16 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-15 12:44:16 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-15 12:44:16 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-15 12:44:16 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-15 12:44:16 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-15 12:50:46 INFO  MenuClient:20 - In main
+2021-08-15 12:50:46 INFO  MenuClient:29 - ======Menu Designing - ADMIN==============
+2021-08-15 12:50:46 INFO  MenuClient:31 - 1.Add Food Items To Menu
+2021-08-15 12:50:46 INFO  MenuClient:32 - 2.Remove Food Items From Menu
+2021-08-15 12:50:46 INFO  MenuClient:33 - 3.Update Food Items In Menu
+2021-08-15 12:50:46 INFO  MenuClient:34 - 4.Display Food Items of Menu
+2021-08-15 12:50:46 INFO  MenuClient:35 - 5.Exit The Application
+2021-08-15 12:50:53 INFO  MenuClient:44 - OPERATION-CREATION/ADDING OF MENU ITEMS
+2021-08-15 12:50:53 INFO  MenuClient:46 - Enter the food item number
+2021-08-15 12:50:53 INFO  MenuClient:48 - Food Items Id between 100 and 150
+2021-08-15 12:50:57 WARN  InvalidIDException:11 - Inside Invalid Id Exception

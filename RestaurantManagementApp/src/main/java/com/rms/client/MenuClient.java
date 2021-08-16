@@ -16,7 +16,7 @@ public class MenuClient {
 	public static void main(String[] args)
 			throws InvalidIDException {
 
-
+ 
 		logger.info("In main");
 
 		MenuController menucontroller = new MenuController();
@@ -34,6 +34,7 @@ public class MenuClient {
 			logger.info("4.Display Food Items of Menu"); 
 			logger.info("5.Exit The Application");
 
+			
 			ch = sc.nextInt();
 
 			switch (ch) {
