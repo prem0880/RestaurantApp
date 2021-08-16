@@ -16,7 +16,7 @@ public class MenuClient {
 	public static void main(String[] args)
 			throws InvalidIDException {
  
- 
+  
 		logger.info("In main");
 
 		MenuController menucontroller = new MenuController();
